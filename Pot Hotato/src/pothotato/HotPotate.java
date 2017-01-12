@@ -17,7 +17,7 @@ public class HotPotate implements Runnable, WindowListener {
 	HotPotate() {
 		running = true;
 		frame = new Frayme("Hot Potato", new Dimension(800, 600));
-		frame.setSize(frame.getMaximumSize());
+		frame.setExtendedState(Frame.MAXIMIZED_BOTH);//auto maximize window, may not be desired depending on if this is a fullscreen game
 		frame.addWindowListener(this);
 		frame.setVisible(true);
 		imgBuffer = frame.createImage(frame.getWidth(), frame.getHeight());
@@ -26,6 +26,7 @@ public class HotPotate implements Runnable, WindowListener {
 	@Override
 	public void run() {
 		while (running) {
+			Background.updateColor();
 			draw();
 			try {
 				Thread.sleep(10);
@@ -42,7 +43,7 @@ public class HotPotate implements Runnable, WindowListener {
 		f = art.getFont();
 
 		int width = frame.getWidth(), height = frame.getHeight();
-		art.setColor(Color.black);
+		art.setColor(Background.getCurrentColor());
 		art.fillRect(0, 0, width, height);
 
 		art = (Graphics2D) frame.getGraphics();
