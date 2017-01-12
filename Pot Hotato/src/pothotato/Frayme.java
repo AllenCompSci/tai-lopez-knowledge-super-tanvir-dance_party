@@ -6,7 +6,7 @@ import java.awt.event.*;
 /**
  * Created by 223671 on 1/12/2017.
  */
-public class Frayme extends Frame implements MouseMotionListener, MouseWheelListener, KeyListener, WindowListener {
+public class Frayme extends Frame implements MouseMotionListener, MouseWheelListener, KeyListener {
 
     private int mouseX, mouseY, mouseWheelDiff;
 
@@ -36,7 +36,7 @@ public class Frayme extends Frame implements MouseMotionListener, MouseWheelList
 
     @Override
     public void keyTyped(KeyEvent e) {
-
+        KeyHandler.pressKey(e.getKeyCode());
     }
 
     @Override
@@ -46,41 +46,6 @@ public class Frayme extends Frame implements MouseMotionListener, MouseWheelList
 
     @Override
     public void keyReleased(KeyEvent e) {
-
-    }
-
-    @Override
-    public void windowOpened(WindowEvent e) {
-
-    }
-
-    @Override
-    public void windowClosing(WindowEvent e) {
-
-    }
-
-    @Override
-    public void windowClosed(WindowEvent e) {
-
-    }
-
-    @Override
-    public void windowIconified(WindowEvent e) {
-
-    }
-
-    @Override
-    public void windowDeiconified(WindowEvent e) {
-
-    }
-
-    @Override
-    public void windowActivated(WindowEvent e) {
-
-    }
-
-    @Override
-    public void windowDeactivated(WindowEvent e) {
 
     }
 }
