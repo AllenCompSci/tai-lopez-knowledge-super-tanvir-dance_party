@@ -8,7 +8,6 @@ public class Mayne {
     public static void main(String[] args) {
         HotPotate potate = new HotPotate();
         new Thread(potate).start();
-        System.out.println("work pls");
     }
 
 }
