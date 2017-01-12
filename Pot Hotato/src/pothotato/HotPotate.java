@@ -10,7 +10,7 @@ import java.awt.image.BufferedImage;
  */
 public class HotPotate implements Runnable, WindowListener {
 	private boolean running, done = false;
-	private Frayme frame;
+	Frayme frame;
 	private Image imgBuffer;
 	private Font f;
 
@@ -39,12 +39,15 @@ public class HotPotate implements Runnable, WindowListener {
 	private void draw() {
 		Graphics2D art = (Graphics2D) imgBuffer.getGraphics();
 		art.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
-		art.setFont(new Font("Arial", Font.PLAIN, 20));
+		art.setFont(new Font("Arial", Font.PLAIN, 50));
 		f = art.getFont();
 
 		int width = frame.getWidth(), height = frame.getHeight();
 		art.setColor(Background.getCurrentColor());
 		art.fillRect(0, 0, width, height);
+		art.setColor(Color.black);
+		DrawingTools.drawCenteredText(f, "HOT POTATO", 100, art);
+
 
 		art = (Graphics2D) frame.getGraphics();
 		if (art != null) {

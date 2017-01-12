@@ -6,9 +6,9 @@ import java.awt.*;
  * Created by mario on 1/12/2017.
  */
 public class Background {
-	private static Color initialColor = new Color(0, 0,0);
-	private static Color destinationColor = new Color(0, 0,0);
-	private static Color currentColor = new Color(0, 0, 0);
+	private static Color initialColor = Color.white;
+	private static Color destinationColor = Color.white;
+	private static Color currentColor = Color.white;
 	private static int colorIntervalMS = 10000;
 	public static Color getCurrentColor() {
 		return currentColor;
@@ -16,7 +16,9 @@ public class Background {
 	public static void updateColor() {
 		if(Mayne.colorSwitcher != null) {
 			if (equalColors(currentColor, destinationColor)) {
-				destinationColor = RandomColorGenerator.getOpaqueColor();
+				do {
+					destinationColor = RandomColorGenerator.getOpaqueColor();
+				} while (destinationColor.getRed() + destinationColor.getBlue() + destinationColor.getGreen() < 350);
 				initialColor = currentColor;
 				Mayne.colorSwitcher.restart();
 			}
