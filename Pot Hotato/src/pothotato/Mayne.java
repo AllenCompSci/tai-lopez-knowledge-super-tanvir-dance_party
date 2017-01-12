@@ -6,6 +6,7 @@ package pothotato;
  */
 public class Mayne {
     public static void main(String[] args) {
+        System.out.println("FUEL-UNITS LOW NEED MOAR KNOWLEDGE");
         HotPotate potate = new HotPotate();
         new Thread(potate).start();
     }
