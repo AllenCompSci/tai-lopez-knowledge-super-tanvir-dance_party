@@ -14,6 +14,7 @@ public class HotPotate implements Runnable, WindowListener {
     HotPotate () {
         running = true;
         frame = new Frayme("Hot Potato", new Dimension(800, 600));
+        frame.addWindowListener(this);
         frame.setVisible(true);
     }
 
