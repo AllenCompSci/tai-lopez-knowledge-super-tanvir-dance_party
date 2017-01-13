@@ -13,6 +13,18 @@ public class Background {
 	public static Color getCurrentColor() {
 		return currentColor;
 	}
+
+	public static Color getInitialColor() {
+		return initialColor;
+	}
+
+	public static Color getDestinationColor() {
+		return destinationColor;
+	}
+
+	public static int getColorIntervalMS() {
+		return colorIntervalMS;
+	}
 	public static void updateColor() {
 		if(Mayne.colorSwitcher != null) {
 			if (equalColors(currentColor, destinationColor)) {
@@ -41,7 +53,12 @@ public class Background {
 	private static int getNumberBetween(int n1, int n2, double progress) {
 		double n1d = n1;
 		double n2d = n2;
-		long out = Math.round(n1d * (1 - progress) + n2d * progress);
+		double k = 3.5;
+		double progressFunction = 1.06 / (1d + Math.pow(Constants.e, - 1d * k * (2 * progress - 1))) - 0.03;//logistic function with k being variable, x being progress (multiplied by 2 to condense the function), and x_o being 1
+		long out = Math.round(n1d * (1 - progressFunction) + n2d * progressFunction);
+		if (progress >= 1.0) {
+			return n2;
+		}
 		return (int)out;
 	}
 }

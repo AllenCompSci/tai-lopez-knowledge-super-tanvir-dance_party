@@ -47,6 +47,17 @@ public class HotPotate implements Runnable, WindowListener {
 		art.fillRect(0, 0, width, height);
 		art.setColor(Color.black);
 		DrawingTools.drawCenteredText(f, "HOT POTATO", 100, art);
+		art.drawString("Interval: " + Background.getColorIntervalMS(), 50, 150);
+		art.setColor(Background.getInitialColor());
+		art.fillRect(15, 165, 30, 30);
+		art.setColor(Color.black);
+		art.drawString("Beginning Color: " + Background.getInitialColor().getRed() + ", " + Background.getInitialColor().getGreen() + ", " + Background.getInitialColor().getBlue(), 50, 200);
+		art.drawString("Current Color: " + Background.getCurrentColor().getRed() + ", " + Background.getCurrentColor().getGreen() + ", " + Background.getCurrentColor().getBlue(), 50, 250);
+		art.setColor(Background.getDestinationColor());
+		art.fillRect(15, 265, 30, 30);
+		art.setColor(Color.black);
+		art.drawString("Destination Color: " + Background.getDestinationColor().getRed() + ", " + Background.getDestinationColor().getGreen() + ", " + Background.getDestinationColor().getBlue(), 50, 300);
+
 
 
 		art = (Graphics2D) frame.getGraphics();
