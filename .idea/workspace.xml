@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed200681-3ad5-4d6a-a881-20c123e7a6c8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pot Hotato/src/pothotato/Constants.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pot Hotato/src/pothotato/Background.java" afterPath="$PROJECT_DIR$/Pot Hotato/src/pothotato/Background.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pot Hotato/src/pothotato/HotPotate.java" afterPath="$PROJECT_DIR$/Pot Hotato/src/pothotato/HotPotate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pot Hotato/src/pothotato/Mayne.java" afterPath="$PROJECT_DIR$/Pot Hotato/src/pothotato/Mayne.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -51,8 +50,8 @@
       <file leaf-file-name="HotPotate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/HotPotate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="268">
-              <caret line="49" column="78" lean-forward="false" selection-start-line="49" selection-start-column="78" selection-end-line="49" selection-end-column="78" />
+            <state relative-caret-position="210">
+              <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -61,7 +60,7 @@
       <file leaf-file-name="DrawingTools.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/DrawingTools.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="709">
+            <state relative-caret-position="969">
               <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
               <folding />
             </state>
@@ -71,12 +70,25 @@
       <file leaf-file-name="Timer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Timer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="862">
+            <state relative-caret-position="2193">
               <caret line="146" column="23" lean-forward="false" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3228#3229#0" expanded="true" />
-                <element signature="e#3249#3250#0" expanded="true" />
+                <element signature="e#1094#1095#0" expanded="false" />
+                <element signature="e#1147#1148#0" expanded="false" />
+                <element signature="e#1175#1176#0" expanded="false" />
+                <element signature="e#1217#1218#0" expanded="false" />
+                <element signature="e#1240#1241#0" expanded="false" />
+                <element signature="e#1280#1281#0" expanded="false" />
+                <element signature="e#1320#1321#0" expanded="false" />
+                <element signature="e#1369#1370#0" expanded="false" />
+                <element signature="e#1403#1404#0" expanded="false" />
+                <element signature="e#1450#1451#0" expanded="false" />
+                <element signature="e#3004#3005#0" expanded="false" />
+                <element signature="e#3026#3027#0" expanded="false" />
+                <element signature="e#3051#3052#0" expanded="false" />
+                <element signature="e#3072#3073#0" expanded="false" />
+                <element signature="e#3426#3427#0" expanded="false" />
+                <element signature="e#3447#3448#0" expanded="false" />
               </folding>
             </state>
           </provider>
@@ -95,11 +107,11 @@
       <file leaf-file-name="Background.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Background.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+            <state relative-caret-position="68">
+              <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
               <folding>
-                <element signature="e#556#557#0" expanded="true" />
-                <element signature="e#585#586#0" expanded="true" />
+                <element signature="e#559#560#0" expanded="true" />
+                <element signature="e#588#589#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -115,21 +127,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pot Hotato/src/testing/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Mayne.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Mayne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+            <state relative-caret-position="306">
+              <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -167,11 +169,11 @@
       <list>
         <option value="$PROJECT_DIR$/Pot Hotato/src/pothotato/RandomColorGenerator.java" />
         <option value="$PROJECT_DIR$/Pot Hotato/src/pothotato/Timer.java" />
-        <option value="$PROJECT_DIR$/Pot Hotato/src/testing/Main.java" />
-        <option value="$PROJECT_DIR$/Pot Hotato/src/pothotato/Mayne.java" />
         <option value="$PROJECT_DIR$/Pot Hotato/src/pothotato/DrawingTools.java" />
         <option value="$PROJECT_DIR$/Pot Hotato/src/pothotato/Constants.java" />
         <option value="$PROJECT_DIR$/Pot Hotato/src/pothotato/Background.java" />
+        <option value="$PROJECT_DIR$/Pot Hotato/src/testing/Main.java" />
+        <option value="$PROJECT_DIR$/Pot Hotato/src/pothotato/Mayne.java" />
         <option value="$PROJECT_DIR$/Pot Hotato/src/pothotato/HotPotate.java" />
       </list>
     </option>
@@ -206,9 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -259,6 +258,9 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -708,6 +710,9 @@
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="ed200681-3ad5-4d6a-a881-20c123e7a6c8" name="Default" comment="" />
@@ -716,7 +721,8 @@
       <option name="presentableId" value="Default" />
       <updated>1484249727408</updated>
       <workItem from="1484249729236" duration="4525000" />
-      <workItem from="1484340993438" duration="2814000" />
+      <workItem from="1484340993438" duration="2899000" />
+      <workItem from="1484365747103" duration="2968000" />
     </task>
     <task id="LOCAL-00001" summary="Made background color entirely random, fading slowly from color to color. May bound randomness in future to enhance playability or remove this entirely.">
       <created>1484252596900</created>
@@ -732,11 +738,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484253527727</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Colors now switch using a logistic function which smoothly accelerates between one color and the next, debug info displayed on screen">
+      <created>1484343887886</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1484343887886</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7339000" />
+    <option name="totallyTimeSpent" value="10392000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -760,7 +773,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.50208336" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32911393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32911393" sideWeight="0.49791667" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32980973" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -785,6 +798,24 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -793,13 +824,14 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <MESSAGE value="Made background color entirely random, fading slowly from color to color. May bound randomness in future to enhance playability or remove this entirely." />
     <MESSAGE value="Start color changed to white, added title text ( placeholder ) , ensured that each color is bright enough (current min. RGB sum is 350)" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start color changed to white, added title text ( placeholder ) , ensured that each color is bright enough (current min. RGB sum is 350)" />
+    <MESSAGE value="Colors now switch using a logistic function which smoothly accelerates between one color and the next, debug info displayed on screen" />
+    <option name="LAST_COMMIT_MESSAGE" value="Colors now switch using a logistic function which smoothly accelerates between one color and the next, debug info displayed on screen" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="2" />
+      <option name="time" value="5" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -808,6 +840,112 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Frayme.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="595">
+          <caret line="40" column="0" lean-forward="false" selection-start-line="40" selection-start-column="0" selection-end-line="40" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#265#266#0" expanded="false" />
+            <element signature="e#279#280#0" expanded="false" />
+            <element signature="e#584#585#0" expanded="false" />
+            <element signature="e#626#627#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/HotPotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/DrawingTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="146" column="23" lean-forward="false" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+          <folding>
+            <element signature="e#1094#1095#0" expanded="false" />
+            <element signature="e#1147#1148#0" expanded="false" />
+            <element signature="e#1175#1176#0" expanded="false" />
+            <element signature="e#1217#1218#0" expanded="false" />
+            <element signature="e#1240#1241#0" expanded="false" />
+            <element signature="e#1280#1281#0" expanded="false" />
+            <element signature="e#1320#1321#0" expanded="false" />
+            <element signature="e#1369#1370#0" expanded="false" />
+            <element signature="e#1403#1404#0" expanded="false" />
+            <element signature="e#1450#1451#0" expanded="false" />
+            <element signature="e#3004#3005#0" expanded="false" />
+            <element signature="e#3026#3027#0" expanded="false" />
+            <element signature="e#3051#3052#0" expanded="false" />
+            <element signature="e#3072#3073#0" expanded="false" />
+            <element signature="e#3426#3427#0" expanded="false" />
+            <element signature="e#3447#3448#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/RandomColorGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="82" lean-forward="false" selection-start-line="7" selection-start-column="82" selection-end-line="7" selection-end-column="82" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/testing/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Mayne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/KeyHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Frayme.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
@@ -843,9 +981,22 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-            <element signature="e#3249#3250#0" expanded="true" />
+            <element signature="e#1094#1095#0" expanded="false" />
+            <element signature="e#1147#1148#0" expanded="false" />
+            <element signature="e#1175#1176#0" expanded="false" />
+            <element signature="e#1217#1218#0" expanded="false" />
+            <element signature="e#1240#1241#0" expanded="false" />
+            <element signature="e#1280#1281#0" expanded="false" />
+            <element signature="e#1320#1321#0" expanded="false" />
+            <element signature="e#1369#1370#0" expanded="false" />
+            <element signature="e#1403#1404#0" expanded="false" />
+            <element signature="e#1450#1451#0" expanded="false" />
+            <element signature="e#3004#3005#0" expanded="false" />
+            <element signature="e#3026#3027#0" expanded="false" />
+            <element signature="e#3051#3052#0" expanded="false" />
+            <element signature="e#3072#3073#0" expanded="false" />
+            <element signature="e#3426#3427#0" expanded="false" />
+            <element signature="e#3447#3448#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -863,8 +1014,8 @@
         <state relative-caret-position="170">
           <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding>
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -948,6 +1099,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2193">
+          <caret line="146" column="23" lean-forward="false" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
+          <folding>
+            <element signature="e#1094#1095#0" expanded="false" />
+            <element signature="e#1147#1148#0" expanded="false" />
+            <element signature="e#1175#1176#0" expanded="false" />
+            <element signature="e#1217#1218#0" expanded="false" />
+            <element signature="e#1240#1241#0" expanded="false" />
+            <element signature="e#1280#1281#0" expanded="false" />
+            <element signature="e#1320#1321#0" expanded="false" />
+            <element signature="e#1369#1370#0" expanded="false" />
+            <element signature="e#1403#1404#0" expanded="false" />
+            <element signature="e#1450#1451#0" expanded="false" />
+            <element signature="e#3004#3005#0" expanded="false" />
+            <element signature="e#3026#3027#0" expanded="false" />
+            <element signature="e#3051#3052#0" expanded="false" />
+            <element signature="e#3072#3073#0" expanded="false" />
+            <element signature="e#3426#3427#0" expanded="false" />
+            <element signature="e#3447#3448#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/DrawingTools.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="969">
+          <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Background.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="25" column="31" lean-forward="false" selection-start-line="25" selection-start-column="31" selection-end-line="25" selection-end-column="31" />
+          <folding>
+            <element signature="e#559#560#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/RandomColorGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -956,38 +1151,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Mayne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="35" lean-forward="false" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Pot Hotato/src/testing/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="862">
-          <caret line="146" column="23" lean-forward="false" selection-start-line="146" selection-start-column="23" selection-end-line="146" selection-end-column="23" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3228#3229#0" expanded="true" />
-            <element signature="e#3249#3250#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/DrawingTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="709">
-          <caret line="57" column="11" lean-forward="false" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        <state relative-caret-position="136">
+          <caret line="8" column="41" lean-forward="false" selection-start-line="8" selection-start-column="41" selection-end-line="8" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1000,21 +1167,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Background.java">
+    <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/Mayne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="22" column="31" lean-forward="false" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
-          <folding>
-            <element signature="e#556#557#0" expanded="true" />
-            <element signature="e#585#586#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="306">
+          <caret line="18" column="26" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Pot Hotato/src/pothotato/HotPotate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="49" column="78" lean-forward="false" selection-start-line="49" selection-start-column="78" selection-end-line="49" selection-end-column="78" />
+        <state relative-caret-position="210">
+          <caret line="52" column="28" lean-forward="false" selection-start-line="52" selection-start-column="28" selection-end-line="52" selection-end-column="28" />
           <folding />
         </state>
       </provider>

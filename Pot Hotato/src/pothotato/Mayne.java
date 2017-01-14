@@ -6,6 +6,7 @@ package pothotato;
  */
 public class Mayne {
 	public static Timer colorSwitcher;
+	public static Timer animTimer;
 	public static HotPotate potate;
 	public static void main(String[] args) {
 		System.out.println("FUEL-UNITS LOW NEED MOAR KNOWLEDGE");
@@ -13,6 +14,9 @@ public class Mayne {
 		new Thread(potate).start();
 		colorSwitcher = new Timer();
 		new Thread(colorSwitcher).start();
+		animTimer = new Timer();
+		new Thread(animTimer).start();
+		animTimer.start();
 	}
 
 }

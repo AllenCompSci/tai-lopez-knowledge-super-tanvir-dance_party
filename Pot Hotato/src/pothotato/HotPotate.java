@@ -47,18 +47,26 @@ public class HotPotate implements Runnable, WindowListener {
 		art.fillRect(0, 0, width, height);
 		art.setColor(Color.black);
 		DrawingTools.drawCenteredText(f, "HOT POTATO", 100, art);
-		art.drawString("Interval: " + Background.getColorIntervalMS(), 50, 150);
-		art.setColor(Background.getInitialColor());
-		art.fillRect(15, 165, 30, 30);
+		int circleRadius = 200;
+		int centerX = width / 2, centerY = height / 2;
+		int numPoints = 3;
+		int period_MS = 3000;
+		double theta_deg = (Mayne.animTimer.getMS() * 360 / period_MS) % 360;//angle in degrees, 60 rpm
+		double theta = theta_deg * Constants.pi / 180d;
+		double[] angles = new double[numPoints];
+		for (int i = 0; i < numPoints; i++) {
+			angles[i] = theta + (double) i * (2d * Constants.pi) / (double) numPoints;
+		}
+		int[] pointsX = new int[numPoints];
+		int[] pointsY = new int[numPoints];
+		for (int i = 0; i < numPoints; i++) {
+			pointsX[i] = centerX + (int) Math.round(circleRadius * Math.cos(angles[i]));
+			pointsY[i] = centerY + (int) Math.round(circleRadius * Math.sin(angles[i]));
+		}
+		art.setColor(Color.green);
+		art.fillPolygon(pointsX, pointsY, numPoints);
 		art.setColor(Color.black);
-		art.drawString("Beginning Color: " + Background.getInitialColor().getRed() + ", " + Background.getInitialColor().getGreen() + ", " + Background.getInitialColor().getBlue(), 50, 200);
-		art.drawString("Current Color: " + Background.getCurrentColor().getRed() + ", " + Background.getCurrentColor().getGreen() + ", " + Background.getCurrentColor().getBlue(), 50, 250);
-		art.setColor(Background.getDestinationColor());
-		art.fillRect(15, 265, 30, 30);
-		art.setColor(Color.black);
-		art.drawString("Destination Color: " + Background.getDestinationColor().getRed() + ", " + Background.getDestinationColor().getGreen() + ", " + Background.getDestinationColor().getBlue(), 50, 300);
-
-
+		art.drawPolygon(pointsX, pointsY, numPoints);
 
 		art = (Graphics2D) frame.getGraphics();
 		if (art != null) {
