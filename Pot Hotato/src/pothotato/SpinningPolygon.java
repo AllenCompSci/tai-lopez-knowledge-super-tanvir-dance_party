@@ -57,9 +57,9 @@ public class SpinningPolygon {
 			pointsX[i] = center_x + (int) Math.round(radius * Math.cos(angles[i]));
 			pointsY[i] = center_y + (int) Math.round(radius * Math.sin(angles[i]));
 		}
-		g2d.setColor(Color.green);
+		g2d.setColor(innerColor);
 		g2d.fillPolygon(pointsX, pointsY, points);
-		g2d.setColor(Color.black);
+		g2d.setColor(outerColor);
 		g2d.drawPolygon(pointsX, pointsY, points);
 	}
 
