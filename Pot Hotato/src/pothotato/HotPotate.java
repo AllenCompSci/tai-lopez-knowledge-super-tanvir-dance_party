@@ -10,11 +10,14 @@ import java.awt.image.BufferedImage;
  */
 public class HotPotate implements Runnable, WindowListener {
 	private boolean running, done = false;
+	private int maxFPS = 144;
 	Frayme frame;
 	private Image imgBuffer;
 	private Font f;
+	private SpinningPolygon countdownPoly;
 
 	HotPotate() {
+		countdownPoly = new SpinningPolygon(6, 3000, 0, 0, Color.green, 200, Mayne.animTimer);
 		running = true;
 		frame = new Frayme("Hot Potato", new Dimension(800, 600));
 		frame.setExtendedState(Frame.MAXIMIZED_BOTH);//auto maximize window, may not be desired depending on if this is a fullscreen game
@@ -26,10 +29,12 @@ public class HotPotate implements Runnable, WindowListener {
 	@Override
 	public void run() {
 		while (running) {
+			int width = frame.getWidth(), height = frame.getHeight();
 			Background.updateColor();
+			countdownPoly.setCenter(width / 2, height / 2);
 			draw();
 			try {
-				Thread.sleep(10);
+				Thread.sleep(Math.round(1000d / (double) maxFPS));//this math might be wrong, if so oopsy doops
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
@@ -47,26 +52,9 @@ public class HotPotate implements Runnable, WindowListener {
 		art.fillRect(0, 0, width, height);
 		art.setColor(Color.black);
 		DrawingTools.drawCenteredText(f, "HOT POTATO", 100, art);
-		int circleRadius = 200;
-		int centerX = width / 2, centerY = height / 2;
-		int numPoints = 3;
-		int period_MS = 3000;
-		double theta_deg = (Mayne.animTimer.getMS() * 360 / period_MS) % 360;//angle in degrees, 60 rpm
-		double theta = theta_deg * Constants.pi / 180d;
-		double[] angles = new double[numPoints];
-		for (int i = 0; i < numPoints; i++) {
-			angles[i] = theta + (double) i * (2d * Constants.pi) / (double) numPoints;
-		}
-		int[] pointsX = new int[numPoints];
-		int[] pointsY = new int[numPoints];
-		for (int i = 0; i < numPoints; i++) {
-			pointsX[i] = centerX + (int) Math.round(circleRadius * Math.cos(angles[i]));
-			pointsY[i] = centerY + (int) Math.round(circleRadius * Math.sin(angles[i]));
-		}
-		art.setColor(Color.green);
-		art.fillPolygon(pointsX, pointsY, numPoints);
-		art.setColor(Color.black);
-		art.drawPolygon(pointsX, pointsY, numPoints);
+		int countdownX = width / 2, countdownY = height / 2;
+		countdownPoly.draw(art);
+		DrawingTools.drawTextAround(f, "3", countdownX, countdownY, art);
 
 		art = (Graphics2D) frame.getGraphics();
 		if (art != null) {

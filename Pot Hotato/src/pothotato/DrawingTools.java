@@ -59,4 +59,11 @@ public class DrawingTools {
 		int len = art.getFontMetrics(f).stringWidth(s);
 		art.drawString(s, x - len - 10, y);
 	}
+
+	static void drawTextAround(Font f, String str, int x, int y, Graphics2D g2d) {
+		int len = g2d.getFontMetrics(f).stringWidth(str);
+		int new_x = x - len / 2;
+		int new_y = y + len / 2;
+		g2d.drawString(str, new_x, new_y);
+	}
 }
