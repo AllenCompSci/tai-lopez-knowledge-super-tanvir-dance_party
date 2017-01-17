@@ -3,6 +3,7 @@ package pothotato;
 import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
+import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 
 /**
@@ -10,20 +11,29 @@ import java.awt.image.BufferedImage;
  */
 public class HotPotate implements Runnable, WindowListener {
 	private boolean running, done = false;
-	private int maxFPS = 144;
+	private int maxFPS = 60;
 	Frayme frame;
 	private Image imgBuffer;
+	private BufferedImage stringBuffer;
 	private Font f;
 	private SpinningPolygon countdownPoly;
 
 	HotPotate() {
-		countdownPoly = new SpinningPolygon(4, 5000, 0, 0, Color.green, 200, Mayne.animTimer);
+		countdownPoly = new SpinningPolygon(3, 10000, 0, 0, Color.green, 200, Mayne.animTimer);
 		running = true;
 		frame = new Frayme("Hot Potato", new Dimension(800, 600));
 		frame.setExtendedState(Frame.MAXIMIZED_BOTH);//auto maximize window, may not be desired depending on if this is a fullscreen game
 		frame.addWindowListener(this);
 		frame.setVisible(true);
 		imgBuffer = frame.createImage(frame.getWidth(), frame.getHeight());
+		stringBuffer = new BufferedImage(100,100,BufferedImage.TYPE_3BYTE_BGR);
+		Graphics2D tres = (Graphics2D) stringBuffer.getGraphics();
+		tres.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+		tres.setFont(new Font("Arial", Font.PLAIN, 50));
+		f = tres.getFont();
+		DrawingTools.drawTextAround(f, "3", 50, 50, tres);
+
+
 	}
 
 	@Override
@@ -54,7 +64,13 @@ public class HotPotate implements Runnable, WindowListener {
 		DrawingTools.drawCenteredText(f, "HOT POTATO", 100, art);
 		int countdownX = width / 2, countdownY = height / 2;
 		countdownPoly.draw(art);
-		DrawingTools.drawTextAround(f, "3", countdownX, countdownY, art);
+		AffineTransform trans = new AffineTransform();
+
+		trans.setTransform(new AffineTransform());
+		art.translate(countdownX - 50, countdownY - 50);
+		trans.rotate(-1 * countdownPoly.getAngle(), 50, 50);
+		art.drawImage(stringBuffer, trans, null);
+		art.translate(0, 0);
 
 		art = (Graphics2D) frame.getGraphics();
 		if (art != null) {

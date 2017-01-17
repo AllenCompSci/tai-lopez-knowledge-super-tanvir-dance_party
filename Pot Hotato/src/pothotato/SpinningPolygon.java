@@ -9,6 +9,7 @@ public class SpinningPolygon {
 	private int points, period, center_x, center_y, radius;
 	private Color innerColor, outerColor;
 	private Timer timer;
+	private double theta;
 
 	/**
 	 * Creates a spinning polygon to draw on screen.
@@ -45,8 +46,8 @@ public class SpinningPolygon {
 
 	public void draw(Graphics2D g2d) {
 
-		double theta_deg = (Mayne.animTimer.getMS() * 360 / period) % 360;//angle in degrees, 60 rpm
-		double theta = theta_deg * Constants.pi / 180d;
+		double theta_deg = (Mayne.animTimer.getMS() * 360 / period) % 360;//angle in degrees
+		theta = Math.toRadians(theta_deg);
 		double[] angles = new double[points];
 		for (int i = 0; i < points; i++) {
 			angles[i] = theta + (double) i * (2d * Constants.pi) / (double) points;
@@ -66,5 +67,9 @@ public class SpinningPolygon {
 	public void setCenter(int x, int y) {
 		center_x = x;
 		center_y = y;
+	}
+
+	public double getAngle() {
+		return theta;
 	}
 }
