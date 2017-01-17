@@ -11,28 +11,33 @@ import java.awt.image.BufferedImage;
  */
 public class HotPotate implements Runnable, WindowListener {
 	private boolean running, done = false;
-	private int maxFPS = 60;
+	private int maxFPS = 60, currCountdown = 3;
 	Frayme frame;
 	private Image imgBuffer;
 	private BufferedImage stringBuffer;
+	private int stringBufferW = 200, stringBufferH = 200;
+	private Graphics2D tres;
 	private Font f;
 	private SpinningPolygon countdownPoly;
 
 	HotPotate() {
-		countdownPoly = new SpinningPolygon(3, 10000, 0, 0, Color.green, 200, Mayne.animTimer);
+		countdownPoly = new SpinningPolygon(6, 1000, 0, 0, Color.green, 200, Mayne.animTimer);
 		running = true;
 		frame = new Frayme("Hot Potato", new Dimension(800, 600));
 		frame.setExtendedState(Frame.MAXIMIZED_BOTH);//auto maximize window, may not be desired depending on if this is a fullscreen game
 		frame.addWindowListener(this);
 		frame.setVisible(true);
 		imgBuffer = frame.createImage(frame.getWidth(), frame.getHeight());
-		stringBuffer = new BufferedImage(100,100,BufferedImage.TYPE_3BYTE_BGR);
-		Graphics2D tres = (Graphics2D) stringBuffer.getGraphics();
+		stringBuffer = new BufferedImage(stringBufferW,stringBufferH,BufferedImage.TYPE_3BYTE_BGR);
+		tres = (Graphics2D) stringBuffer.getGraphics();
 		tres.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 		tres.setFont(new Font("Arial", Font.PLAIN, 50));
 		f = tres.getFont();
-		DrawingTools.drawTextAround(f, "3", 50, 50, tres);
-
+		tres.setColor(countdownPoly.getInnerColor());
+		tres.fillRect(0, 0, stringBufferW, stringBufferH);
+		tres.setColor(Color.BLACK);
+		DrawingTools.drawTextAround(f, "3", stringBufferW/2, stringBufferH/2, tres);
+		Mayne.countdownTimer.start();
 
 	}
 
@@ -42,6 +47,32 @@ public class HotPotate implements Runnable, WindowListener {
 			int width = frame.getWidth(), height = frame.getHeight();
 			Background.updateColor();
 			countdownPoly.setCenter(width / 2, height / 2);
+			int countdownStatus = Mayne.countdownTimer.getMS() / 1000 + 1;
+			if(countdownStatus < currCountdown) {
+				tres.dispose();
+				stringBuffer = new BufferedImage(stringBufferW,stringBufferH,BufferedImage.TYPE_3BYTE_BGR);
+				tres = (Graphics2D) stringBuffer.getGraphics();
+				tres.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+				tres.setFont(new Font("Arial", Font.PLAIN, 50));
+				f = tres.getFont();
+				tres.setColor(countdownPoly.getInnerColor());
+				tres.fillRect(0, 0, stringBufferW, stringBufferH);
+				tres.setColor(Color.black);
+				DrawingTools.drawTextAround(f, Integer.toString(countdownStatus), stringBufferW/2, stringBufferH/2, tres);
+				currCountdown = countdownStatus;
+			}
+			if(Mayne.countdownTimer.getMS() == 0) {
+				tres.dispose();
+				stringBuffer = new BufferedImage(stringBufferW,stringBufferH,BufferedImage.TYPE_3BYTE_BGR);
+				tres = (Graphics2D) stringBuffer.getGraphics();
+				tres.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
+				tres.setFont(new Font("Arial", Font.PLAIN, 50));
+				f = tres.getFont();
+				tres.setColor(countdownPoly.getInnerColor());
+				tres.fillRect(0, 0, stringBufferW, stringBufferH);
+				tres.setColor(Color.black);
+				DrawingTools.drawTextAround(f, "GO!", stringBufferW/2, stringBufferH/2, tres);
+			}
 			draw();
 			try {
 				Thread.sleep(Math.round(1000d / (double) maxFPS));//this math might be wrong, if so oopsy doops
@@ -68,7 +99,7 @@ public class HotPotate implements Runnable, WindowListener {
 
 		trans.setTransform(new AffineTransform());
 		art.translate(countdownX - 50, countdownY - 50);
-		trans.rotate(-1 * countdownPoly.getAngle(), 50, 50);
+		trans.rotate(countdownPoly.getAngle(), 50, 50);
 		art.drawImage(stringBuffer, trans, null);
 		art.translate(0, 0);
 
