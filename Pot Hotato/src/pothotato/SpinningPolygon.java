@@ -72,4 +72,8 @@ public class SpinningPolygon {
 	public double getAngle() {
 		return theta;
 	}
+
+	public Color getInnerColor() {
+		return innerColor;
+	}
 }

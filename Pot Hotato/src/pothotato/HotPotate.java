@@ -1,10 +1,12 @@
 package pothotato;
 
+import javax.imageio.ImageIO;
 import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowListener;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
+import java.io.IOException;
 
 /**
  * Created by 223671 on 1/12/2017.
@@ -20,8 +22,11 @@ public class HotPotate implements Runnable, WindowListener {
 	private Font f;
 	private SpinningPolygon countdownPoly;
 
+
 	HotPotate() {
-		countdownPoly = new SpinningPolygon(6, 1000, 0, 0, Color.green, 200, Mayne.animTimer);
+
+
+        countdownPoly = new SpinningPolygon(6, 1000, 0, 0, Color.green, 200, Mayne.animTimer);
 		running = true;
 		frame = new Frayme("Hot Potato", new Dimension(800, 600));
 		frame.setExtendedState(Frame.MAXIMIZED_BOTH);//auto maximize window, may not be desired depending on if this is a fullscreen game
@@ -33,9 +38,9 @@ public class HotPotate implements Runnable, WindowListener {
 		tres.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 		tres.setFont(new Font("Arial", Font.PLAIN, 50));
 		f = tres.getFont();
-		tres.setColor(countdownPoly.getInnerColor());
-		tres.fillRect(0, 0, stringBufferW, stringBufferH);
-		tres.setColor(Color.BLACK);
+        tres.setColor(countdownPoly.getInnerColor());
+		tres.fillRect(0, 0, stringBufferW, stringBufferH);//
+       	tres.setColor(Color.BLACK);
 		DrawingTools.drawTextAround(f, "3", stringBufferW/2, stringBufferH/2, tres);
 		Mayne.countdownTimer.start();
 
@@ -71,7 +76,7 @@ public class HotPotate implements Runnable, WindowListener {
 				tres.setColor(countdownPoly.getInnerColor());
 				tres.fillRect(0, 0, stringBufferW, stringBufferH);
 				tres.setColor(Color.black);
-				DrawingTools.drawTextAround(f, "GO!", stringBufferW/2, stringBufferH/2, tres);
+				DrawingTools.drawTextAround(f, "GO!", stringBufferW/2, stringBufferH/2-(stringBufferH/10), tres); // Modification of 10% reduction
 			}
 			draw();
 			try {
@@ -98,8 +103,8 @@ public class HotPotate implements Runnable, WindowListener {
 		AffineTransform trans = new AffineTransform();
 
 		trans.setTransform(new AffineTransform());
-		art.translate(countdownX - 50, countdownY - 50);
-		trans.rotate(countdownPoly.getAngle(), 50, 50);
+		art.translate(countdownX - stringBufferW/2, countdownY - stringBufferH/2);
+		trans.rotate(countdownPoly.getAngle(), stringBufferW/2, stringBufferH/2);
 		art.drawImage(stringBuffer, trans, null);
 		art.translate(0, 0);
 
