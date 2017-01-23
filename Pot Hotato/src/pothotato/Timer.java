@@ -9,7 +9,7 @@ public class Timer implements Runnable {
 	private Duration startTime;
 	private boolean running;
 	private boolean countingUp;
-	private final int delay;
+	private int delay;
 
 	public Timer() {
 		running = false;
@@ -157,5 +157,9 @@ public class Timer implements Runnable {
 
 	public boolean isRunning() {
 		return running;
+	}
+
+	public void setDelay(int delay) {
+		this.delay = delay;
 	}
 }

@@ -26,7 +26,7 @@ public class HotPotate implements Runnable, WindowListener {
 	HotPotate() {
 
 
-        countdownPoly = new SpinningPolygon(6, 1000, 0, 0, Color.green, 200, Mayne.animTimer);
+        countdownPoly = new SpinningPolygon(5, 1000, 0, 0, Color.green, 200, Mayne.animTimer);
 		running = true;
 		frame = new Frayme("Hot Potato", new Dimension(800, 600));
 		frame.setExtendedState(Frame.MAXIMIZED_BOTH);//auto maximize window, may not be desired depending on if this is a fullscreen game

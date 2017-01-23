@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a981eee-5e2b-4765-a39d-36a89498ccbd" name="Default" comment="" />
+    <list default="true" id="0a981eee-5e2b-4765-a39d-36a89498ccbd" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Background.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Background.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/HotPotate.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/HotPotate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Mayne.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Mayne.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Timer.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Timer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pothotato/HotPotate.java" afterPath="$PROJECT_DIR$/src/pothotato/HotPotate.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pothotato/Mayne.java" afterPath="$PROJECT_DIR$/src/pothotato/Mayne.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pothotato/Timer.java" afterPath="$PROJECT_DIR$/src/pothotato/Timer.java" />
+    </list>
     <ignored path="Pot Hotato.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,9 +35,22 @@
       <file leaf-file-name="Mayne.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+            <state relative-caret-position="323">
+              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Timer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pothotato/Timer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+              <folding>
+                <element signature="e#3477#3478#0" expanded="true" />
+                <element signature="e#3502#3503#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -35,104 +58,9 @@
       <file leaf-file-name="HotPotate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="78" column="146" selection-start-line="78" selection-start-column="146" selection-end-line="78" selection-end-column="146" />
+            <state relative-caret-position="323">
+              <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ImageIO.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21947">
-              <caret line="1387" column="0" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#57783#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#3445#3446#0" expanded="false" />
-                <element signature="e#3507#3508#0" expanded="false" />
-                <element signature="e#3918#3919#0" expanded="false" />
-                <element signature="e#3957#3958#0" expanded="false" />
-                <element signature="e#4010#4011#0" expanded="false" />
-                <element signature="e#4058#4059#0" expanded="false" />
-                <element signature="e#4101#4102#0" expanded="false" />
-                <element signature="e#4146#4147#0" expanded="false" />
-                <element signature="e#4208#4209#0" expanded="false" />
-                <element signature="e#4268#4269#0" expanded="false" />
-                <element signature="e#4313#4314#0" expanded="false" />
-                <element signature="e#4357#4358#0" expanded="false" />
-                <element signature="e#4420#4421#0" expanded="false" />
-                <element signature="e#4478#4479#0" expanded="false" />
-                <element signature="e#8429#8430#0" expanded="false" />
-                <element signature="e#8481#8482#0" expanded="false" />
-                <element signature="e#8851#8852#0" expanded="false" />
-                <element signature="e#8902#8903#0" expanded="false" />
-                <element signature="e#10370#10371#0" expanded="false" />
-                <element signature="e#10427#10428#0" expanded="false" />
-                <element signature="e#15256#15257#0" expanded="false" />
-                <element signature="e#15315#15316#0" expanded="false" />
-                <element signature="e#15423#15424#0" expanded="false" />
-                <element signature="e#15480#15481#0" expanded="false" />
-                <element signature="e#15591#15592#0" expanded="false" />
-                <element signature="e#15651#15652#0" expanded="false" />
-                <element signature="e#16138#16146#0" expanded="false" />
-                <element signature="e#17791#17792#0" expanded="false" />
-                <element signature="e#17831#17832#0" expanded="false" />
-                <element signature="e#17867#17868#0" expanded="false" />
-                <element signature="e#17912#17913#0" expanded="false" />
-                <element signature="e#18410#18411#0" expanded="false" />
-                <element signature="e#18475#18476#0" expanded="false" />
-                <element signature="e#18640#18641#0" expanded="false" />
-                <element signature="e#18682#18683#0" expanded="false" />
-                <element signature="e#28454#28455#0" expanded="false" />
-                <element signature="e#28494#28495#0" expanded="false" />
-                <element signature="e#28530#28531#0" expanded="false" />
-                <element signature="e#28575#28576#0" expanded="false" />
-                <element signature="e#29048#29049#0" expanded="false" />
-                <element signature="e#29113#29114#0" expanded="false" />
-                <element signature="e#41473#41474#0" expanded="false" />
-                <element signature="e#41513#41514#0" expanded="false" />
-                <element signature="e#41549#41550#0" expanded="false" />
-                <element signature="e#41594#41595#0" expanded="false" />
-                <element signature="e#41822#41823#0" expanded="false" />
-                <element signature="e#41887#41888#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Color.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4794">
-              <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#44153#0" expanded="false" />
-                <element signature="imports" expanded="false" />
-                <element signature="e#10465#10466#0" expanded="false" />
-                <element signature="e#10499#10500#0" expanded="false" />
-                <element signature="e#11984#11985#0" expanded="false" />
-                <element signature="e#12024#12025#0" expanded="false" />
-                <element signature="e#17219#17220#0" expanded="false" />
-                <element signature="e#17265#17266#0" expanded="false" />
-                <element signature="e#17454#17455#0" expanded="false" />
-                <element signature="e#17499#17500#0" expanded="false" />
-                <element signature="e#17685#17686#0" expanded="false" />
-                <element signature="e#17730#17731#0" expanded="false" />
-                <element signature="e#17886#17887#0" expanded="false" />
-                <element signature="e#17932#17933#0" expanded="false" />
-                <element signature="e#18395#18396#0" expanded="false" />
-                <element signature="e#18423#18424#0" expanded="false" />
-                <element signature="e#21422#21423#0" expanded="false" />
-                <element signature="e#21450#21451#0" expanded="false" />
-                <element signature="e#22087#22088#0" expanded="false" />
-                <element signature="e#22172#22173#0" expanded="false" />
-                <element signature="e#24437#24438#0" expanded="false" />
-                <element signature="e#24478#24479#0" expanded="false" />
-                <element signature="e#33466#33467#0" expanded="false" />
-                <element signature="e#33517#33518#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -141,16 +69,16 @@
         <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1275">
-              <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding>
-                <element signature="e#2365#2366#0" expanded="true" />
-                <element signature="e#2389#2390#0" expanded="true" />
-              </folding>
+              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -161,6 +89,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/pothotato/SpinningPolygon.java" />
+        <option value="$PROJECT_DIR$/src/pothotato/Timer.java" />
         <option value="$PROJECT_DIR$/src/pothotato/Mayne.java" />
         <option value="$PROJECT_DIR$/src/pothotato/HotPotate.java" />
       </list>
@@ -173,21 +102,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1616" />
-    <option name="height" value="1216" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
-  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -203,17 +123,11 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Pot Hotato" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="Pot Hotato" />
@@ -264,6 +178,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Memory" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -271,6 +190,236 @@
       <recent name="C:\Users\taylor hudson\Desktop\IntelliJ\tai-lopez-knowledge-super-tanvir-dance_party\Pot Hotato" />
       <recent name="C:\Users\taylor hudson\Desktop\IntelliJ\tai-lopez-knowledge-super-tanvir-dance_party\Pot Hotato\src" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../LoginSetup.sql</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../LoginSystem.zip</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/.classpath</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/.project</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/.settings/org.eclipse.jdt.core.prefs</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/README.md</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/Block$DelayedCoverThread.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/Block$Status.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/Block.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameCanvas$JCanvas.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameCanvas.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameLogic$GraphicsInterface.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameLogic$TimerThread.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameLogic.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameWindow$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameWindow$2.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameWindow$3.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameWindow$4.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameWindow.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/A.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/B.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/C.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/D.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/E.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/F.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/G.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/H.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/I.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/J.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/K.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/L.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/M.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/N.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/O.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/P.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/Q.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/R.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/S.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/T.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/U.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/V.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/W.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/X.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/Y.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/Z.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/test/BlockTest.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/memory/Block.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/memory/GameCanvas.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/memory/GameLogic.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/memory/GameWindow.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/A.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/B.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/C.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/D.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/E.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/F.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/G.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/H.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/I.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/J.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/K.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/L.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/M.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/N.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/O.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/P.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/Q.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/R.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/S.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/T.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/U.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/V.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/W.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/X.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/Y.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/Z.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/test/BlockTest.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/Max.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/Red Light Green Light.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/Thumbs.db</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/Vance.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Giraffics.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Light.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Main.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Player.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$2.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$3.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$4.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$5.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$6.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Timer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Giraffics.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Light.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Main.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Player.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Resizer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Timer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/redlightgreenlight/Player.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/Russian Roulette 2.iml</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Chamber.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Giraffics.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Kbutton.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Main.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$1.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$2.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$3.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$4.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$5.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$6.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/coolframe.class</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/Chamber.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/Giraffics.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/Kbutton.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/Main.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/Resizer.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/coolframe.java</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../STD.zip</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/../picross.zip</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Application.Mayne">
     <configuration default="false" name="Mayne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -297,9 +446,10 @@
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
       <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
       <method />
     </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App">
       <module name="" />
       <option name="DEPLOY" value="true" />
       <option name="ARTIFACT_NAME" value="" />
@@ -309,7 +459,7 @@
       <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
       <option name="PREFERRED_AVD" value="" />
       <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
       <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
       <option name="FORCE_STOP_RUNNING_APP" value="true" />
       <option name="DEBUGGER_TYPE" value="Java" />
@@ -317,7 +467,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <option name="DEEP_LINK" value="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -342,7 +496,11 @@
       <option name="PREFERRED_AVD" value="" />
       <Java />
       <Profilers>
+        <option name="ENABLE_ADVANCED_PROFILING" value="true" />
+        <option name="GAPID_ENABLED" value="false" />
         <option name="GAPID_DISABLE_PCS" value="false" />
+        <option name="SUPPORT_LIB_ENABLED" value="true" />
+        <option name="INSTRUMENTATION_ENABLED" value="true" />
       </Profilers>
       <method />
     </configuration>
@@ -520,6 +678,7 @@
       <setting name="cmdLine" value="run-app" />
       <setting name="passParentEnv" value="true" />
       <setting name="launchBrowser" value="true" />
+      <setting name="launchBrowserUrl" value="" />
       <setting name="depsClasspath" value="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
@@ -536,27 +695,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -587,6 +725,12 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -613,9 +757,6 @@
       <option name="workingDirectory" />
       <option name="isAlternativeJrePathEnabled" value="false" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -660,34 +801,6 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -698,23 +811,10 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run-script" />
+      <command value="run" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory />
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui />
-      <extra-mocha-options />
-      <test-kind>DIRECTORY</test-kind>
-      <test-directory />
-      <recursive>false</recursive>
       <method />
     </configuration>
     <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
@@ -731,6 +831,30 @@
         <item index="0" class="java.lang.String" itemvalue="Application.Mayne" />
       </list>
     </recent_temporary>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -744,42 +868,51 @@
       <updated>1484747618860</updated>
       <workItem from="1484747621976" duration="4191000" />
       <workItem from="1484755191388" duration="543000" />
+      <workItem from="1484840844925" duration="961000" />
+      <workItem from="1485185275362" duration="714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4734000" />
+    <option name="totallyTimeSpent" value="6409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1616" height="1216" extended-state="7" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28184283" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28138527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14392324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -803,8 +936,43 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#3477#3478#0" expanded="true" />
+            <element signature="e#3502#3503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -812,7 +980,45 @@
     <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21947">
+          <caret line="1387" column="0" lean-forward="false" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4794">
+          <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1241">
+          <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -820,222 +1026,164 @@
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23579">
-          <caret line="1387" column="0" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#57783#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3445#3446#0" expanded="false" />
-            <element signature="e#3507#3508#0" expanded="false" />
-            <element signature="e#3918#3919#0" expanded="false" />
-            <element signature="e#3957#3958#0" expanded="false" />
-            <element signature="e#4010#4011#0" expanded="false" />
-            <element signature="e#4058#4059#0" expanded="false" />
-            <element signature="e#4101#4102#0" expanded="false" />
-            <element signature="e#4146#4147#0" expanded="false" />
-            <element signature="e#4208#4209#0" expanded="false" />
-            <element signature="e#4268#4269#0" expanded="false" />
-            <element signature="e#4313#4314#0" expanded="false" />
-            <element signature="e#4357#4358#0" expanded="false" />
-            <element signature="e#4420#4421#0" expanded="false" />
-            <element signature="e#4478#4479#0" expanded="false" />
-            <element signature="e#8429#8430#0" expanded="false" />
-            <element signature="e#8481#8482#0" expanded="false" />
-            <element signature="e#8851#8852#0" expanded="false" />
-            <element signature="e#8902#8903#0" expanded="false" />
-            <element signature="e#10370#10371#0" expanded="false" />
-            <element signature="e#10427#10428#0" expanded="false" />
-            <element signature="e#15256#15257#0" expanded="false" />
-            <element signature="e#15315#15316#0" expanded="false" />
-            <element signature="e#15423#15424#0" expanded="false" />
-            <element signature="e#15480#15481#0" expanded="false" />
-            <element signature="e#15591#15592#0" expanded="false" />
-            <element signature="e#15651#15652#0" expanded="false" />
-            <element signature="e#16138#16146#0" expanded="false" />
-            <element signature="e#17791#17792#0" expanded="false" />
-            <element signature="e#17831#17832#0" expanded="false" />
-            <element signature="e#17867#17868#0" expanded="false" />
-            <element signature="e#17912#17913#0" expanded="false" />
-            <element signature="e#18410#18411#0" expanded="false" />
-            <element signature="e#18475#18476#0" expanded="false" />
-            <element signature="e#18640#18641#0" expanded="false" />
-            <element signature="e#18682#18683#0" expanded="false" />
-            <element signature="e#28454#28455#0" expanded="false" />
-            <element signature="e#28494#28495#0" expanded="false" />
-            <element signature="e#28530#28531#0" expanded="false" />
-            <element signature="e#28575#28576#0" expanded="false" />
-            <element signature="e#29048#29049#0" expanded="false" />
-            <element signature="e#29113#29114#0" expanded="false" />
-            <element signature="e#41473#41474#0" expanded="false" />
-            <element signature="e#41513#41514#0" expanded="false" />
-            <element signature="e#41549#41550#0" expanded="false" />
-            <element signature="e#41594#41595#0" expanded="false" />
-            <element signature="e#41822#41823#0" expanded="false" />
-            <element signature="e#41887#41888#0" expanded="false" />
-          </folding>
+          <caret line="1387" column="0" lean-forward="false" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5253">
-          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#44153#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10465#10466#0" expanded="false" />
-            <element signature="e#10499#10500#0" expanded="false" />
-            <element signature="e#11984#11985#0" expanded="false" />
-            <element signature="e#12024#12025#0" expanded="false" />
-            <element signature="e#17219#17220#0" expanded="false" />
-            <element signature="e#17265#17266#0" expanded="false" />
-            <element signature="e#17454#17455#0" expanded="false" />
-            <element signature="e#17499#17500#0" expanded="false" />
-            <element signature="e#17685#17686#0" expanded="false" />
-            <element signature="e#17730#17731#0" expanded="false" />
-            <element signature="e#17886#17887#0" expanded="false" />
-            <element signature="e#17932#17933#0" expanded="false" />
-            <element signature="e#18395#18396#0" expanded="false" />
-            <element signature="e#18423#18424#0" expanded="false" />
-            <element signature="e#21422#21423#0" expanded="false" />
-            <element signature="e#21450#21451#0" expanded="false" />
-            <element signature="e#22087#22088#0" expanded="false" />
-            <element signature="e#22172#22173#0" expanded="false" />
-            <element signature="e#24437#24438#0" expanded="false" />
-            <element signature="e#24478#24479#0" expanded="false" />
-            <element signature="e#33466#33467#0" expanded="false" />
-            <element signature="e#33517#33518#0" expanded="false" />
-          </folding>
+          <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="e#2365#2366#0" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-          </folding>
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
-          <caret line="79" column="0" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding>
-            <element signature="e#2365#2366#0" expanded="true" />
-            <element signature="e#2389#2390#0" expanded="true" />
-          </folding>
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4794">
-          <caret line="309" column="0" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#44153#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#10465#10466#0" expanded="false" />
-            <element signature="e#10499#10500#0" expanded="false" />
-            <element signature="e#11984#11985#0" expanded="false" />
-            <element signature="e#12024#12025#0" expanded="false" />
-            <element signature="e#17219#17220#0" expanded="false" />
-            <element signature="e#17265#17266#0" expanded="false" />
-            <element signature="e#17454#17455#0" expanded="false" />
-            <element signature="e#17499#17500#0" expanded="false" />
-            <element signature="e#17685#17686#0" expanded="false" />
-            <element signature="e#17730#17731#0" expanded="false" />
-            <element signature="e#17886#17887#0" expanded="false" />
-            <element signature="e#17932#17933#0" expanded="false" />
-            <element signature="e#18395#18396#0" expanded="false" />
-            <element signature="e#18423#18424#0" expanded="false" />
-            <element signature="e#21422#21423#0" expanded="false" />
-            <element signature="e#21450#21451#0" expanded="false" />
-            <element signature="e#22087#22088#0" expanded="false" />
-            <element signature="e#22172#22173#0" expanded="false" />
-            <element signature="e#24437#24438#0" expanded="false" />
-            <element signature="e#24478#24479#0" expanded="false" />
-            <element signature="e#33466#33467#0" expanded="false" />
-            <element signature="e#33517#33518#0" expanded="false" />
-          </folding>
+          <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/200x200.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21947">
-          <caret line="1387" column="0" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
+        <state relative-caret-position="836">
+          <caret line="1387" column="0" lean-forward="false" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
           <folding>
-            <element signature="e#0#57783#0" expanded="false" />
-            <element signature="imports" expanded="false" />
-            <element signature="e#3445#3446#0" expanded="false" />
-            <element signature="e#3507#3508#0" expanded="false" />
-            <element signature="e#3918#3919#0" expanded="false" />
-            <element signature="e#3957#3958#0" expanded="false" />
-            <element signature="e#4010#4011#0" expanded="false" />
-            <element signature="e#4058#4059#0" expanded="false" />
-            <element signature="e#4101#4102#0" expanded="false" />
-            <element signature="e#4146#4147#0" expanded="false" />
-            <element signature="e#4208#4209#0" expanded="false" />
-            <element signature="e#4268#4269#0" expanded="false" />
-            <element signature="e#4313#4314#0" expanded="false" />
-            <element signature="e#4357#4358#0" expanded="false" />
-            <element signature="e#4420#4421#0" expanded="false" />
-            <element signature="e#4478#4479#0" expanded="false" />
-            <element signature="e#8429#8430#0" expanded="false" />
-            <element signature="e#8481#8482#0" expanded="false" />
-            <element signature="e#8851#8852#0" expanded="false" />
-            <element signature="e#8902#8903#0" expanded="false" />
-            <element signature="e#10370#10371#0" expanded="false" />
-            <element signature="e#10427#10428#0" expanded="false" />
-            <element signature="e#15256#15257#0" expanded="false" />
-            <element signature="e#15315#15316#0" expanded="false" />
-            <element signature="e#15423#15424#0" expanded="false" />
-            <element signature="e#15480#15481#0" expanded="false" />
-            <element signature="e#15591#15592#0" expanded="false" />
-            <element signature="e#15651#15652#0" expanded="false" />
-            <element signature="e#16138#16146#0" expanded="false" />
-            <element signature="e#17791#17792#0" expanded="false" />
-            <element signature="e#17831#17832#0" expanded="false" />
-            <element signature="e#17867#17868#0" expanded="false" />
-            <element signature="e#17912#17913#0" expanded="false" />
-            <element signature="e#18410#18411#0" expanded="false" />
-            <element signature="e#18475#18476#0" expanded="false" />
-            <element signature="e#18640#18641#0" expanded="false" />
-            <element signature="e#18682#18683#0" expanded="false" />
-            <element signature="e#28454#28455#0" expanded="false" />
-            <element signature="e#28494#28495#0" expanded="false" />
-            <element signature="e#28530#28531#0" expanded="false" />
-            <element signature="e#28575#28576#0" expanded="false" />
-            <element signature="e#29048#29049#0" expanded="false" />
-            <element signature="e#29113#29114#0" expanded="false" />
-            <element signature="e#41473#41474#0" expanded="false" />
-            <element signature="e#41513#41514#0" expanded="false" />
-            <element signature="e#41549#41550#0" expanded="false" />
-            <element signature="e#41594#41595#0" expanded="false" />
-            <element signature="e#41822#41823#0" expanded="false" />
-            <element signature="e#41887#41888#0" expanded="false" />
+            <element signature="e#3477#3478#0" expanded="true" />
+            <element signature="e#3502#3503#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="78" column="146" selection-start-line="78" selection-start-column="146" selection-end-line="78" selection-end-column="146" />
+        <state relative-caret-position="323">
+          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding />
         </state>
       </provider>
     </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Pot Hotato</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

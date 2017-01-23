@@ -17,6 +17,7 @@ public class Mayne {
         new Thread(animTimer).start();
         animTimer.start();
         countdownTimer = new Timer(false, 3000);
+        countdownTimer.setDelay(100);
         new Thread(countdownTimer).start();
         potate = new HotPotate();
         new Thread(potate).start();
