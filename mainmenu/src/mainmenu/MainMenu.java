@@ -8,5 +8,6 @@ public class MainMenu {
 	public static void main(String[] args) {
 		window = new MenuWindow();
 		new Thread(window).start();
+
 	}
 }
