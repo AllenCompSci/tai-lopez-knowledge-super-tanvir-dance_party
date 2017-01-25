@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a981eee-5e2b-4765-a39d-36a89498ccbd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Background.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Background.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/HotPotate.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/HotPotate.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Mayne.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Mayne.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Timer.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Timer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pothotato/HotPotate.java" afterPath="$PROJECT_DIR$/src/pothotato/HotPotate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pothotato/Mayne.java" afterPath="$PROJECT_DIR$/src/pothotato/Mayne.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Timer.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Timer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Background.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Background.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pothotato/Timer.java" afterPath="$PROJECT_DIR$/src/pothotato/Timer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/HotPotate.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/HotPotate.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pothotato/Mayne.java" afterPath="$PROJECT_DIR$/src/pothotato/Mayne.java" />
     </list>
     <ignored path="Pot Hotato.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,7 +58,7 @@
       <file leaf-file-name="HotPotate.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
+            <state relative-caret-position="-1513">
               <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
               <folding />
             </state>
@@ -102,10 +102,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -124,7 +122,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -172,13 +169,14 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Memory" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -190,236 +188,6 @@
       <recent name="C:\Users\taylor hudson\Desktop\IntelliJ\tai-lopez-knowledge-super-tanvir-dance_party\Pot Hotato" />
       <recent name="C:\Users\taylor hudson\Desktop\IntelliJ\tai-lopez-knowledge-super-tanvir-dance_party\Pot Hotato\src" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../LoginSetup.sql</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../LoginSystem.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/.classpath</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/.project</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/.settings/org.eclipse.jdt.core.prefs</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/README.md</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/Block$DelayedCoverThread.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/Block$Status.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/Block.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameCanvas$JCanvas.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameCanvas.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameLogic$GraphicsInterface.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameLogic$TimerThread.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameLogic.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameWindow$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameWindow$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameWindow$3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameWindow$4.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/memory/GameWindow.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/A.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/B.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/C.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/D.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/E.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/F.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/G.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/H.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/I.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/J.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/K.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/L.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/M.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/N.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/O.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/P.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/Q.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/R.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/S.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/T.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/U.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/V.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/W.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/X.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/Y.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/resource/Z.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/bin/stdparty/test/BlockTest.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/memory/Block.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/memory/GameCanvas.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/memory/GameLogic.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/memory/GameWindow.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/A.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/B.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/C.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/D.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/E.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/F.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/G.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/H.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/I.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/J.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/K.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/L.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/M.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/N.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/O.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/P.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/Q.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/R.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/S.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/T.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/U.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/V.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/W.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/X.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/Y.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/resource/Z.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Memory/src/stdparty/test/BlockTest.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/Max.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/Red Light Green Light.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/Thumbs.db</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/Vance.png</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Giraffics.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Light.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Main.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Player.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$4.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$5.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer$6.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Resizer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/out/production/Red Light Green Light/redlightgreenlight/Timer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Giraffics.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Light.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Main.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Player.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Resizer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/Timer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Red Light Green Light/src/redlightgreenlight/redlightgreenlight/Player.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/Russian Roulette 2.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Chamber.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Giraffics.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Kbutton.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Main.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$1.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$2.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$3.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$4.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$5.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer$6.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/Resizer.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/bin/coolframe.class</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/Chamber.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/Giraffics.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/Kbutton.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/Main.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/Resizer.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../Russian Roulette 2/src/coolframe.java</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../STD.zip</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/../picross.zip</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
   </component>
   <component name="RunManager" selected="Application.Mayne">
     <configuration default="false" name="Mayne" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -527,136 +295,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
-      <envs />
-      <properties />
-      <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Cold Fusion runner description" factoryName="Cold Fusion" custom_browser="" web_path="">
-      <method />
-    </configuration>
-    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="myFilePath" />
-      <option name="GLUE" />
-      <option name="myNameFilter" />
-      <option name="myGeneratedName" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
-      <option name="BCName" value="" />
-      <option name="IOSSimulatorSdkPath" value="" />
-      <option name="adlOptions" value="" />
-      <option name="airProgramParameters" value="" />
-      <option name="appDescriptorForEmulator" value="Android" />
-      <option name="debugTransport" value="USB" />
-      <option name="debuggerSdkRaw" value="BC SDK" />
-      <option name="emulator" value="NexusOne" />
-      <option name="emulatorAdlOptions" value="" />
-      <option name="fastPackaging" value="true" />
-      <option name="fullScreenHeight" value="0" />
-      <option name="fullScreenWidth" value="0" />
-      <option name="launchUrl" value="false" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="mobileRunTarget" value="Emulator" />
-      <option name="moduleName" value="" />
-      <option name="overriddenMainClass" value="" />
-      <option name="overriddenOutputFileName" value="" />
-      <option name="overrideMainClass" value="false" />
-      <option name="runTrusted" value="true" />
-      <option name="screenDpi" value="0" />
-      <option name="screenHeight" value="0" />
-      <option name="screenWidth" value="0" />
-      <option name="url" value="http://" />
-      <option name="usbDebugPort" value="7936" />
-      <method />
-    </configuration>
-    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
-      <option name="BCName" value="" />
-      <option name="launcherParameters">
-        <LauncherParameters>
-          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
-          <option name="launcherType" value="OSDefault" />
-          <option name="newPlayerInstance" value="false" />
-          <option name="playerPath" value="FlashPlayerDebugger.exe" />
-        </LauncherParameters>
-      </option>
-      <option name="moduleName" value="" />
-      <option name="trusted" value="true" />
-      <method />
-    </configuration>
     <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -671,16 +309,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
-      <setting name="vmparams" value="" />
-      <setting name="cmdLine" value="run-app" />
-      <setting name="passParentEnv" value="true" />
-      <setting name="launchBrowser" value="true" />
-      <setting name="launchBrowserUrl" value="" />
-      <setting name="depsClasspath" value="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -725,15 +353,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="MAIN_CLASS_NAME" />
@@ -767,12 +386,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -799,28 +412,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <arguments />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
-      <scripts />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Run Launcher">
-      <method />
-    </configuration>
-    <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
     <list size="1">
@@ -877,8 +468,8 @@
     <option name="totallyTimeSpent" value="6409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -886,16 +477,15 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3340494" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28138527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32900432" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3284055" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14392324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29237288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -906,6 +496,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -971,6 +562,41 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding>
+            <element signature="e#3477#3478#0" expanded="true" />
+            <element signature="e#3502#3503#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
@@ -985,20 +611,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21947">
-          <caret line="1387" column="0" lean-forward="false" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4794">
-          <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java" />
     <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
@@ -1023,20 +637,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23579">
-          <caret line="1387" column="0" lean-forward="false" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5253">
-          <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java" />
     <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
@@ -1053,25 +655,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4794">
-          <caret line="309" column="0" lean-forward="false" selection-start-line="309" selection-start-column="0" selection-end-line="309" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pothotato/200x200.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="836">
-          <caret line="1387" column="0" lean-forward="false" selection-start-line="1387" selection-start-column="0" selection-end-line="1387" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java" />
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java" />
     <entry file="file://$PROJECT_DIR$/src/pothotato/Timer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1091,9 +676,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/200x200.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
+        <state relative-caret-position="-1513">
           <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
           <folding />
         </state>
