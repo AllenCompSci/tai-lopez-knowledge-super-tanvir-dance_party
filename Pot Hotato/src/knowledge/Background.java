@@ -1,6 +1,6 @@
 package knowledge;
 
-import pothotato.Mayne;
+import hotpotato.Mayne;
 
 import java.awt.*;
 

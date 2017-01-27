@@ -1,6 +1,6 @@
 package knowledge;
 
-import pothotato.KeyHandler;
+import hotpotato.KeyHandler;
 
 import java.awt.*;
 import java.awt.event.*;

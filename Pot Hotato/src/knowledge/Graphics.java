@@ -1,6 +1,6 @@
 package knowledge;
 
-import pothotato.HotPotato;
+import hotpotato.HotPotato;
 
 import java.awt.*;
 import java.awt.event.WindowEvent;
