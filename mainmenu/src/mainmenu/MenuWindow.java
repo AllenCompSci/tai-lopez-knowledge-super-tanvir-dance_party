@@ -11,14 +11,19 @@ import java.awt.image.BufferedImage;
  */
 public class MenuWindow implements Runnable, WindowListener, WindowFocusListener {
 	private boolean running, done;
-	private Fraime frame;
+	private BetterFrame frame;
 	private Image imgBuffer;
 	private Font f;
+	private AllButtons allButtons;
+	private ButtonList buttons;
+	private Button bStartGame;
 
 	public MenuWindow() {
+		createButtons();
+		allButtons.setWindow("main");
 		running = true;
 		done = false;
-		frame = new Fraime("Main Menu", new Dimension(8, 8));
+		frame = new BetterFrame("Main Menu", new Dimension(800, 600));
 		frame.setExtendedState(Frame.MAXIMIZED_BOTH);
 		frame.addWindowListener(this);
 		frame.addWindowFocusListener(this);
@@ -30,6 +35,8 @@ public class MenuWindow implements Runnable, WindowListener, WindowFocusListener
 	public void run() {
 		while (running) {
 			draw();
+			repositionButtons();
+			Background.updateColor();
 			try {
 				Thread.sleep(10);
 			} catch (InterruptedException e) {
@@ -43,8 +50,11 @@ public class MenuWindow implements Runnable, WindowListener, WindowFocusListener
 		art.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 		art.setFont(new Font("Arial", Font.PLAIN, 50));
 		f = art.getFont();
-		int width = frame.getWidth(), height = frame.getHeight();
+		int width = frame.getWidth(), height = frame.getHeight(), effectiveHeight = height - 30;
 
+		art.setColor(Background.getCurrentColor());
+		art.fillRect(0, 30, width, effectiveHeight);
+		buttons.drawAll(art);
 
 		art = (Graphics2D) frame.getGraphics();
 		if (art != null) {
@@ -54,10 +64,25 @@ public class MenuWindow implements Runnable, WindowListener, WindowFocusListener
 		}
 	}
 
+	private void createButtons() {
+		allButtons = new AllButtons();
+
+		buttons = new ButtonList("main");
+		bStartGame = new Button(0, 0, 100, 100, "Start Game");
+		buttons.add(bStartGame);
+		allButtons.add(buttons);
+	}
+
+	private void repositionButtons() {
+		bStartGame.setPos(frame.getWidth() / 2 - bStartGame.getSize().width / 2, frame.getHeight() / 2 - bStartGame.getSize().height / 2);
+	}
+
+	//region Unused
 	@Override
 	public void windowOpened(WindowEvent e) {
 
 	}
+	//endregion
 
 	@Override
 	public void windowClosing(WindowEvent e) {
@@ -79,6 +104,7 @@ public class MenuWindow implements Runnable, WindowListener, WindowFocusListener
 		}
 	}
 
+	//region Unused Overrides
 	@Override
 	public void windowIconified(WindowEvent e) {
 
@@ -108,5 +134,10 @@ public class MenuWindow implements Runnable, WindowListener, WindowFocusListener
 	@Override
 	public void windowLostFocus(WindowEvent e) {
 
+	}
+	//endregion
+
+	public BetterFrame getFrame() {
+		return frame;
 	}
 }

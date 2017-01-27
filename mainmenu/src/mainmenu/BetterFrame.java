@@ -6,9 +6,12 @@ import java.awt.event.*;
 /**
  * Created by 254397 on 1/25/2017.
  */
-public class Fraime extends Frame implements MouseListener, MouseMotionListener, MouseWheelListener, KeyListener {
+public class BetterFrame extends Frame implements MouseListener, MouseMotionListener, MouseWheelListener, KeyListener {
+	public int mouseX, mouseY;
+	private boolean clicking;
+	private int mouseButton = -1;
 
-	public Fraime(String title, Dimension size) {
+	public BetterFrame(String title, Dimension size) {
 		super(title);
 		setSize(size);
 	}
@@ -35,12 +38,14 @@ public class Fraime extends Frame implements MouseListener, MouseMotionListener,
 
 	@Override
 	public void mousePressed(MouseEvent e) {
-
+		clicking = true;
+		mouseButton = e.getButton();
 	}
 
 	@Override
 	public void mouseReleased(MouseEvent e) {
-
+		clicking = false;
+		mouseButton = -1;
 	}
 
 	@Override
@@ -55,16 +60,26 @@ public class Fraime extends Frame implements MouseListener, MouseMotionListener,
 
 	@Override
 	public void mouseDragged(MouseEvent e) {
-
+		mouseX = e.getX();
+		mouseY = e.getY();
 	}
 
 	@Override
 	public void mouseMoved(MouseEvent e) {
-
+		mouseX = e.getX();
+		mouseY = e.getY();
 	}
 
 	@Override
 	public void mouseWheelMoved(MouseWheelEvent e) {
 
+	}
+
+	public boolean isClicking() {
+		return clicking;
+	}
+
+	public int getMouseButton() {
+		return mouseButton;
 	}
 }
