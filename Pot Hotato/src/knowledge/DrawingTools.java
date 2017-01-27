@@ -16,7 +16,7 @@ public class DrawingTools {
 	 * @param y   number of pixels from top of canvas where the *bottom* of the string should go
 	 * @param art canvas to paint final string
 	 */
-	static void drawCenteredText(Font f, String s, int x, int y, Graphics2D art) {
+	public static void drawCenteredText(Font f, String s, int x, int y, Graphics2D art) {
 		int len = art.getFontMetrics(f).stringWidth(s);
 		art.drawString(s, x - len / 2, y);
 	}
@@ -30,12 +30,12 @@ public class DrawingTools {
 	 * @param y   number of pixels from top of canvas where the *bottom* of the string should go
 	 * @param art canvas to paint final string
 	 */
-	static void drawRightText(Font f, String s, int x, int y, Graphics2D art) {
+	public static void drawRightText(Font f, String s, int x, int y, Graphics2D art) {
 		int len = art.getFontMetrics(f).stringWidth(s);
 		art.drawString(s, x - len - 10, y);
 	}
 
-	static void drawTextAround(Font f, String str, int x, int y, Graphics2D g2d) {
+	public static void drawTextAround(Font f, String str, int x, int y, Graphics2D g2d) {
 		int len = g2d.getFontMetrics(f).stringWidth(str);
 		int height = g2d.getFontMetrics(f).getHeight();
 		int new_x = x - len / 2;

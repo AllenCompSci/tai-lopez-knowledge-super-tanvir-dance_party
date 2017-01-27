@@ -1,14 +1,16 @@
 package testing;
 
+import knowledge.Timer;
+
 import java.awt.*;
 
 /**
  * Created by mario on 1/12/2017.
  */
 public class Main {
-	private static pothotato.Timer timer;
+	private static Timer timer;
 	public static void main(String[] args) throws InterruptedException {
-		timer = new pothotato.Timer();
+		timer = new Timer();
 		new Thread(timer).start();
 		int interval = 10000;
 		Color c1 = new Color(78, 34, 30);

@@ -1,5 +1,7 @@
 package knowledge;
 
+import pothotato.HotPotato;
+
 import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowFocusListener;
@@ -10,13 +12,13 @@ import java.awt.image.BufferedImage;
  * Created by mario on 1/25/2017.
  */
 public class Graphics implements Runnable, WindowListener, WindowFocusListener {
-	final int WINDOW_BAR_HEIGHT = 30;
-	boolean running, done, visible;
-	int width = 800, height = 600;
-	BetterFrame frame;
-	Image imgBuffer;
-	Font f;
-	Graphics2D art;
+	public final int WINDOW_BAR_HEIGHT = 30;
+	public boolean running, done, visible;
+	public int width = 800, height = 600;
+	public BetterFrame frame;
+	public Image imgBuffer;
+	public Font f;
+	public Graphics2D art;
 
 	public Graphics() {
 		frame = new BetterFrame("Frame", new Dimension(width, height));
@@ -51,14 +53,14 @@ public class Graphics implements Runnable, WindowListener, WindowFocusListener {
 			height = frame.getHeight();
 	}
 
-	void startDraw() {
+	public void startDraw() {
 		art = (Graphics2D) imgBuffer.getGraphics();
 		art.setRenderingHint(RenderingHints.KEY_ANTIALIASING, RenderingHints.VALUE_ANTIALIAS_ON);
 		art.setFont(new Font("Arial", Font.PLAIN, 50));
 		f = art.getFont();
 	}
 
-	void endDraw() {
+	public void endDraw() {
 		art = (Graphics2D) frame.getGraphics();
 		if (art != null) {
 			imgBuffer = Resizer.PROGRESSIVE_BILINEAR.resize((BufferedImage) imgBuffer, width, height);
@@ -78,7 +80,7 @@ public class Graphics implements Runnable, WindowListener, WindowFocusListener {
 
 	@Override
 	public void windowClosed(WindowEvent e) {
-		if (done && this instanceof MainWindow)
+		if (done && this instanceof HotPotato) //when integrating, change HotPotato to the class name of the main window
 			System.exit(0);
 		try {
 			Thread.sleep(100);

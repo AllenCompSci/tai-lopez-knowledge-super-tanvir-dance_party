@@ -1,5 +1,8 @@
 package pothotato;
 
+import knowledge.Constants;
+import knowledge.Timer;
+
 import java.awt.*;
 
 /**
@@ -46,7 +49,7 @@ public class SpinningPolygon {
 
 	public void draw(Graphics2D g2d) {
 
-		double theta_deg = (Mayne.animTimer.getMS() * 360 / period) % 360;//angle in degrees
+		double theta_deg = (Mayne.animTimer.getMS() * 360 / period);//angle in degrees
 		theta = Math.toRadians(theta_deg);
 		double[] angles = new double[points];
 		for (int i = 0; i < points; i++) {

@@ -1,3 +1,4 @@
+/*
 package pothotato;
 
 import javax.imageio.ImageIO;
@@ -7,14 +8,17 @@ import java.awt.event.WindowListener;
 import java.awt.geom.AffineTransform;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
+import knowledge.*;
 
+*/
 /**
  * Created by 223671 on 1/12/2017.
- */
+ *//*
+
 public class OldPotate implements Runnable, WindowListener {
 	private boolean running, done = false;
 	private int maxFPS = 60, currCountdown = 3;
-	Frayme frame;
+	BetterFrame frame;
 	private Image imgBuffer;
 	private BufferedImage stringBuffer;
 	private int stringBufferW = 200, stringBufferH = 200;
@@ -28,7 +32,7 @@ public class OldPotate implements Runnable, WindowListener {
 
         countdownPoly = new SpinningPolygon(5, 1000, 0, 0, Color.green, 200, Mayne.animTimer);
 		running = true;
-		frame = new Frayme("Hot Potato", new Dimension(800, 600));
+		frame = new BetterFrame("Hot Potato", new Dimension(800, 600));
 		frame.setExtendedState(Frame.MAXIMIZED_BOTH);//auto maximize window, may not be desired depending on if this is a fullscreen game
 		frame.addWindowListener(this);
 		frame.setVisible(true);
@@ -164,3 +168,4 @@ public class OldPotate implements Runnable, WindowListener {
 
 	}
 }
+*/

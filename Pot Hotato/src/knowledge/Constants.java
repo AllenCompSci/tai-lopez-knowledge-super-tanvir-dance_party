@@ -1,4 +1,4 @@
-package pothotato;
+package knowledge;
 
 /**
  * Created by mario on 1/13/2017.

@@ -1,5 +1,7 @@
 package knowledge;
 
+import pothotato.KeyHandler;
+
 import java.awt.*;
 import java.awt.event.*;
 

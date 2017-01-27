@@ -1,4 +1,6 @@
-package pothotato;
+package knowledge;
+
+import pothotato.Mayne;
 
 import java.awt.*;
 
@@ -51,11 +53,9 @@ public class Background {
 				&& c1.getAlpha() == c2.getAlpha();
 	}
 	private static int getNumberBetween(int n1, int n2, double progress) {
-		double n1d = n1;
-		double n2d = n2;
 		double k = 3.5;
 		double progressFunction = 1.06 / (1d + Math.pow(Constants.e, - 1d * k * (2 * progress - 1))) - 0.03;//logistic function with k being variable, x being progress (multiplied by 2 to condense the function), and x_o being 1
-		long out = Math.round(n1d * (1 - progressFunction) + n2d * progressFunction);
+		long out = Math.round((double) n1 * (1 - progressFunction) + (double) n2 * progressFunction);
 		if (progress >= 1.0) {
 			return n2;
 		}
