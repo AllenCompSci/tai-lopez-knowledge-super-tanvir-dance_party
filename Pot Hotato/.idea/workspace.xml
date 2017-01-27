@@ -2,15 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a981eee-5e2b-4765-a39d-36a89498ccbd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Mayne.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Mayne.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pothotato/HotPotate.java" afterPath="$PROJECT_DIR$/src/pothotato/HotPotate.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Timer.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Timer.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Background.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Background.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/200x200.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Background.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Constants.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/DrawingTools.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Frayme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/HotPotate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/KeyHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Mayne.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/RandomColorGenerator.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Resizer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/SpinningPolygon.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/Timer.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/testing/Main.class" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pothotato/Timer.java" afterPath="$PROJECT_DIR$/src/pothotato/Timer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/HotPotate.class" afterPath="$PROJECT_DIR$/out/production/Pot Hotato/pothotato/HotPotate.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pothotato/Mayne.java" afterPath="$PROJECT_DIR$/src/pothotato/Mayne.java" />
     </list>
     <ignored path="Pot Hotato.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,11 +37,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Mayne.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Mayne.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+            <state relative-caret-position="357">
+              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -45,21 +50,18 @@
       <file leaf-file-name="Timer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pothotato/Timer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-              <folding>
-                <element signature="e#3477#3478#0" expanded="true" />
-                <element signature="e#3502#3503#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="136">
+              <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotPotate.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
+      <file leaf-file-name="OldPotate.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pothotato/OldPotate.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1513">
-              <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+            <state relative-caret-position="330">
+              <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -68,9 +70,15 @@
       <file leaf-file-name="SpinningPolygon.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1275">
-              <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="816">
+              <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+              <folding>
+                <element signature="e#2365#2366#0" expanded="false" />
+                <marker date="1485530614315" expanded="true" signature="2249:2285" ph="{...}" />
+                <marker date="1485530614315" expanded="false" signature="2312:2317" ph=" { " />
+                <marker date="1485530614315" expanded="false" signature="2330:2333" ph=" }" />
+                <marker date="1485530614315" expanded="false" signature="2387:2390" ph=" }" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -90,8 +98,9 @@
       <list>
         <option value="$PROJECT_DIR$/src/pothotato/SpinningPolygon.java" />
         <option value="$PROJECT_DIR$/src/pothotato/Timer.java" />
-        <option value="$PROJECT_DIR$/src/pothotato/Mayne.java" />
         <option value="$PROJECT_DIR$/src/pothotato/HotPotate.java" />
+        <option value="$PROJECT_DIR$/src/pothotato/OldPotate.java" />
+        <option value="$PROJECT_DIR$/src/pothotato/Mayne.java" />
       </list>
     </option>
   </component>
@@ -102,6 +111,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="960" />
     <option name="width" value="960" />
     <option name="height" value="1040" />
   </component>
@@ -121,8 +131,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -167,9 +177,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pot Hotato" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pot Hotato" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="out" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="production" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Pot Hotato" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -181,6 +213,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -468,8 +501,8 @@
     <option name="totallyTimeSpent" value="6409000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -477,15 +510,15 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3340494" sideWeight="0.50416666" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3351235" sideWeight="0.5024356" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28138527" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2803437" sideWeight="0.49756438" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.3284055" sideWeight="0.49583334" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29237288" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3898305" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -499,7 +532,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32946146" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32975295" sideWeight="0.49756438" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,24 +560,13 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
+        <state relative-caret-position="340">
+          <caret line="20" column="39" lean-forward="false" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pothotato/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#3477#3478#0" expanded="true" />
-            <element signature="e#3502#3503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -552,11 +574,25 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
+    <entry file="file://$PROJECT_DIR$/src/pothotato/OldPotate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="816">
+          <caret line="48" column="67" lean-forward="false" selection-start-line="48" selection-start-column="67" selection-end-line="48" selection-end-column="67" />
+          <folding>
+            <element signature="e#2365#2366#0" expanded="false" />
+            <marker date="1485530614315" expanded="true" signature="2249:2285" ph="{...}" />
+            <marker date="1485530614315" expanded="false" signature="2312:2317" ph=" { " />
+            <marker date="1485530614315" expanded="false" signature="2330:2333" ph=" }" />
+            <marker date="1485530614315" expanded="false" signature="2387:2390" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -572,14 +608,11 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#3477#3478#0" expanded="true" />
-            <element signature="e#3502#3503#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
+    <entry file="file://$PROJECT_DIR$/src/pothotato/OldPotate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -591,7 +624,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1275">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#2365#2366#0" expanded="false" />
+            <marker date="1485530614315" expanded="true" signature="2249:2285" ph="{...}" />
+            <marker date="1485530614315" expanded="false" signature="2312:2317" ph=" { " />
+            <marker date="1485530614315" expanded="false" signature="2330:2333" ph=" }" />
+            <marker date="1485530614315" expanded="false" signature="2387:2390" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/OldPotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
+          <folding>
+            <element signature="e#2365#2366#0" expanded="false" />
+            <marker date="1485530614315" expanded="true" signature="2249:2285" ph="{...}" />
+            <marker date="1485530614315" expanded="false" signature="2312:2317" ph=" { " />
+            <marker date="1485530614315" expanded="false" signature="2330:2333" ph=" }" />
+            <marker date="1485530614315" expanded="false" signature="2387:2390" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -603,7 +680,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
+    <entry file="file://$PROJECT_DIR$/src/pothotato/OldPotate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -617,7 +694,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2365#2366#0" expanded="false" />
+            <marker date="1485530614315" expanded="true" signature="2249:2285" ph="{...}" />
+            <marker date="1485530614315" expanded="false" signature="2312:2317" ph=" { " />
+            <marker date="1485530614315" expanded="false" signature="2330:2333" ph=" }" />
+            <marker date="1485530614315" expanded="false" signature="2387:2390" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -629,7 +712,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
+    <entry file="file://$PROJECT_DIR$/src/pothotato/OldPotate.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -643,48 +726,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1343">
           <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1275">
-          <caret line="79" column="0" lean-forward="false" selection-start-line="79" selection-start-column="0" selection-end-line="79" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#2365#2366#0" expanded="false" />
+            <marker date="1485530614315" expanded="true" signature="2249:2285" ph="{...}" />
+            <marker date="1485530614315" expanded="false" signature="2312:2317" ph=" { " />
+            <marker date="1485530614315" expanded="false" signature="2330:2333" ph=" }" />
+            <marker date="1485530614315" expanded="false" signature="2387:2390" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/java/awt/Color.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_111/src.zip!/javax/imageio/ImageIO.java" />
-    <entry file="file://$PROJECT_DIR$/src/pothotato/Timer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="19" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="19" />
-          <folding>
-            <element signature="e#3477#3478#0" expanded="true" />
-            <element signature="e#3502#3503#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="35" lean-forward="false" selection-start-line="19" selection-start-column="35" selection-end-line="19" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pothotato/200x200.png">
       <provider selected="true" editor-type-id="images">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pothotato/HotPotate.java">
+    <entry file="file://$PROJECT_DIR$/src/pothotato/SpinningPolygon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1513">
-          <caret line="28" column="51" lean-forward="false" selection-start-line="28" selection-start-column="51" selection-end-line="28" selection-end-column="51" />
+        <state relative-caret-position="816">
+          <caret line="49" column="42" lean-forward="true" selection-start-line="49" selection-start-column="42" selection-end-line="49" selection-end-column="42" />
+          <folding>
+            <element signature="e#2365#2366#0" expanded="false" />
+            <marker date="1485530614315" expanded="true" signature="2249:2285" ph="{...}" />
+            <marker date="1485530614315" expanded="false" signature="2312:2317" ph=" { " />
+            <marker date="1485530614315" expanded="false" signature="2330:2333" ph=" }" />
+            <marker date="1485530614315" expanded="false" signature="2387:2390" ph=" }" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/Timer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="10" selection-start-column="31" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/OldPotate.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="81" column="0" lean-forward="false" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pothotato/Mayne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding />
         </state>
       </provider>
