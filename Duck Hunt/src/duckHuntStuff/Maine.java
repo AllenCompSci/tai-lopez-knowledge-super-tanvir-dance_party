@@ -5,8 +5,26 @@ package duckHuntStuff;
  */
 public class Maine {
     public static void main (String[] args) {
-        Duck donald = new Duck((int)Math.PI, 50, 69, 420 );
+        Duck duck1 = new Duck();
 
-        System.out.println(donald.getxPos());
+        long start = System.currentTimeMillis();
+
+        while (System.currentTimeMillis() - start < 10000){
+            try {
+                Thread.sleep(100);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+
+            if (Math.random() < 0.1 && !duck1.isOnScreen()) {
+                duck1.setxPos(1080);
+                duck1.setyPos((int)(Math.random() * 540));
+            }
+            if (duck1.isOnScreen()) {
+                duck1.updatePosition();
+            }
+
+            System.out.println("(" + duck1.getxPos() + ", " + duck1.getyPos() + ")\n");
+        }
     }
 }

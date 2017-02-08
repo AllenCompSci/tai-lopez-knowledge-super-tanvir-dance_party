@@ -12,8 +12,8 @@ public class Duck {
     public Duck() {
         xPos = 0;
         yPos = 0;
-        xSpeed = 1;
-        ySpeed = 1;
+        xSpeed = 100;
+        ySpeed = 100;
     }
 
     public Duck(int x, int y, int xs, int ys){
@@ -22,6 +22,7 @@ public class Duck {
         xSpeed = xs;
         ySpeed = ys;
     }
+
     public int getxPos() {
         return xPos;
     }
@@ -36,5 +37,30 @@ public class Duck {
 
     public int getySpeed() {
         return ySpeed;
+    }
+
+    public void setxPos(int x) {
+        xPos = x;
+    }
+
+    public void setyPos(int y) {
+        yPos = y;
+    }
+
+    public void setxSpeed(int xs) {
+        xSpeed = xs;
+    }
+
+    public void setySpeed(int ys) {
+        ySpeed = ys;
+    }
+
+    public void updatePosition() {
+        xPos += xSpeed;
+        yPos += ySpeed;
+    }
+
+    public boolean isOnScreen() {
+        return (xPos > 0 && xPos < 1920 && yPos > 0 && yPos < 1080);
     }
 }
