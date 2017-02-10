@@ -1,66 +1,105 @@
-package duckHuntStuff;
+import java.awt.*;
 
-/**
- * Created by 239480 on 2/2/2017.
- */
 public class Duck {
-    private int xPos;
-    private int yPos;
-    private int xSpeed;
-    private int ySpeed;
+	private int xPos;
+	private int yPos;
+	private int xSpeed;
+	private int ySpeed;
+	private Color[] birdc;
+	public Duck() {
+		birdc = new Color[5];
+		birdc[0] = new Color(35,31,32);
+		birdc[1] = new Color(255,255,255);
+		birdc[2] = new Color(242,236,47);
+		birdc[3] = new Color(251,187,19);
+		birdc[4] = new Color(242,107,61);
+		xPos = 0;
+		yPos = 0;
+		xSpeed = 3;
+		ySpeed = 3;
+	}
 
-    public Duck() {
-        xPos = 0;
-        yPos = 0;
-        xSpeed = 100;
-        ySpeed = 100;
-    }
+	public Duck(int x, int y, int xs, int ys){
+		xPos = x;
+		yPos = y;
+		xSpeed = xs;
+		ySpeed = ys;
+	}
 
-    public Duck(int x, int y, int xs, int ys){
-        xPos = x;
-        yPos = y;
-        xSpeed = xs;
-        ySpeed = ys;
-    }
+	public int getxPos() {
+		return xPos;
+	}
 
-    public int getxPos() {
-        return xPos;
-    }
+	public int getyPos() {
+		return yPos;
+	}
 
-    public int getyPos() {
-        return yPos;
-    }
+	public int getxSpeed() {
+		return xSpeed;
+	}
 
-    public int getxSpeed() {
-        return xSpeed;
-    }
+	public int getySpeed() {
+		return ySpeed;
+	}
 
-    public int getySpeed() {
-        return ySpeed;
-    }
+	public void setxPos(int x) {
+		xPos = x;
+	}
 
-    public void setxPos(int x) {
-        xPos = x;
-    }
+	public void setyPos(int y) {
+		yPos = y;
+	}
 
-    public void setyPos(int y) {
-        yPos = y;
-    }
+	public void setxSpeed(int xs) {
+		xSpeed = xs;
+	}
 
-    public void setxSpeed(int xs) {
-        xSpeed = xs;
-    }
+	public void setySpeed(int ys) {
+		ySpeed = ys;
+	}
 
-    public void setySpeed(int ys) {
-        ySpeed = ys;
-    }
+	public void updatePosition() {
+		xPos += xSpeed;
+		yPos += ySpeed;
+	}
 
-    public void updatePosition() {
-        xPos += xSpeed;
-        yPos += ySpeed;
-    }
+	public void changeDirection() {
+		double check = Math.random();
 
-    public boolean isOnScreen() {
-        return (xPos > 0 && xPos < 1920 && yPos > 0 && yPos < 1080);
-    }
+		if (check > 0.66) {
+			xSpeed *= -1;
+		}
+		else if (check < 0.33) {
+			ySpeed *= -1;
+		}
+		else{
+			xSpeed *= -1;
+			ySpeed *=-1;
+		}
+	}
+	public boolean isOnScreen() {
+		return (xPos >= 0 && xPos <= 800 && yPos >= 0 && yPos <= 600);
+	}
+
+	public void fixDirection(){
+		if (yPos < 0) {
+			ySpeed = 5;
+		}
+		else if (yPos > 542) {
+			ySpeed = -5;
+		}
+
+		if (xPos < 0) {
+			xSpeed = 5;
+		} else if (xPos > 1102) {
+			xSpeed = -5;
+		}
+	}
+	public boolean isHit(Color Colorpt){
+		boolean hit = false;
+		if(Colorpt.equals(birdc[0]) ||Colorpt.equals(birdc[1]) ||Colorpt.equals(birdc[2]) ||Colorpt.equals(birdc[3]) ||Colorpt.equals(birdc[4])){
+			hit = true;
+		}
+		return hit;
+	}
 }
