@@ -3,6 +3,10 @@ package knowledge;
 import java.awt.*;
 import java.awt.image.BufferedImage;
 
+/**
+ * @author onContentStop
+ */
+
 public enum Resizer {
 	NEAREST_NEIGHBOR {
 		@Override

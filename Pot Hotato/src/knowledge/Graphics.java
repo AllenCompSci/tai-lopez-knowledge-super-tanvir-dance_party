@@ -1,7 +1,5 @@
 package knowledge;
 
-import hotpotato.HotPotato;
-
 import java.awt.*;
 import java.awt.event.WindowEvent;
 import java.awt.event.WindowFocusListener;
@@ -9,7 +7,7 @@ import java.awt.event.WindowListener;
 import java.awt.image.BufferedImage;
 
 /**
- * Created by mario on 1/25/2017.
+ * @author onContentStop
  */
 public class Graphics implements Runnable, WindowListener, WindowFocusListener {
 	public final int WINDOW_BAR_HEIGHT = 30;
@@ -29,6 +27,7 @@ public class Graphics implements Runnable, WindowListener, WindowFocusListener {
 		frame = new BetterFrame(title, new Dimension(width, height));
 		initializeCommonVariables();
 	}
+
 	private void initializeCommonVariables() {
 		running = true;
 		done = false;
@@ -80,12 +79,13 @@ public class Graphics implements Runnable, WindowListener, WindowFocusListener {
 
 	@Override
 	public void windowClosed(WindowEvent e) {
-		if (done && this instanceof HotPotato) //when integrating, change HotPotato to the class name of the main window
-			System.exit(0);
+		if (done) //when integrating, change HotPotato to the class name of the main window
+//			System.exit(0);
+			Thread.currentThread().interrupt();
 		try {
 			Thread.sleep(100);
-		} catch (InterruptedException e1) {
-			e1.printStackTrace();
+		} catch (InterruptedException ie) {
+			ie.printStackTrace();
 		}
 	}
 
@@ -95,7 +95,7 @@ public class Graphics implements Runnable, WindowListener, WindowFocusListener {
 
 	public void setVisible(boolean visible) {
 		frame.setVisible(visible);
-		if(visible)
+		if (visible)
 			imgBuffer = frame.createImage(width, height);
 		this.visible = visible;
 	}

@@ -1,7 +1,7 @@
 package knowledge;
 
 /**
- * Created by mario on 1/13/2017.
+ * @author onContentStop
  */
 public class Constants {
 	public static double e = 2.71828182845904523536028747135266249775724709369995;

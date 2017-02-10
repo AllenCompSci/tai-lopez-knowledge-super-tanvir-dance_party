@@ -6,12 +6,12 @@ import java.awt.*;
 import java.awt.event.*;
 
 /**
- * Created by 254397 on 1/25/2017.
+ * @author onContentStop
  */
 public class BetterFrame extends Frame implements MouseListener, MouseMotionListener, MouseWheelListener, KeyListener {
 	public int mouseX, mouseY;
 	private boolean clicking;
-	private int mouseButton = - 1;
+	private int mouseButton = -1;
 
 	public BetterFrame(String title, Dimension size) {
 		super(title);
@@ -51,7 +51,7 @@ public class BetterFrame extends Frame implements MouseListener, MouseMotionList
 	@Override
 	public void mouseReleased(MouseEvent e) {
 		clicking = false;
-		mouseButton = - 1;
+		mouseButton = -1;
 	}
 
 	@Override

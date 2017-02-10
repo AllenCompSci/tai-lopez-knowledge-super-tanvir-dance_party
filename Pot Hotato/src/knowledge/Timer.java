@@ -4,7 +4,11 @@ import java.time.Duration;
 
 import static java.time.Duration.ZERO;
 
-@SuppressWarnings ("InfiniteLoopStatement")
+/**
+ * @author onContentStop
+ */
+
+@SuppressWarnings("InfiniteLoopStatement")
 public class Timer implements Runnable {
 	private Duration startTime;
 	private boolean running;
@@ -39,8 +43,8 @@ public class Timer implements Runnable {
 
 	@Override
 	public void run() {
-		while(true) {
-			if(running)
+		while (true) {
+			if (running)
 				if (countingUp) {
 					startTime = startTime.plusMillis(delay);
 				} else {
@@ -52,7 +56,7 @@ public class Timer implements Runnable {
 
 			try {
 				Thread.sleep(delay);
-			} catch(InterruptedException e) {
+			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
 		}
@@ -77,6 +81,7 @@ public class Timer implements Runnable {
 	public void addMS(int millis) {
 		startTime = startTime.plusMillis(millis);
 	}
+
 	public String toString(boolean zeroes) {
 		int ms = (int) startTime.toMillis();
 		int seconds = ms / 1000;
@@ -86,17 +91,17 @@ public class Timer implements Runnable {
 		minutes %= 60;
 		String out = "";
 		int numSeparators;
-		if(!zeroes) {
-			if(hours > 0) {
+		if (!zeroes) {
+			if (hours > 0) {
 				numSeparators = 4;
-			} else if(minutes > 0) {
+			} else if (minutes > 0) {
 				numSeparators = 3;
-			} else if(seconds > 0) {
+			} else if (seconds > 0) {
 				numSeparators = 2;
 			} else {
 				numSeparators = 1;
 			}
-			switch(numSeparators) {
+			switch (numSeparators) {
 				case 4:
 					out = "" + hours + ":" + (minutes < 10 ? '0' : "") + minutes + ':' + (seconds < 10 ? '0' : "") + seconds + '.' + (ms / 10 % 100 < 10 ? '0' : "") + ms / 10 % 100;
 					break;
@@ -152,6 +157,7 @@ public class Timer implements Runnable {
 		startTime = ZERO;
 		running = true;
 	}
+
 	public void restart(int length) {
 		if (!countingUp)
 			startTime = Duration.ofMillis(length);
@@ -166,5 +172,9 @@ public class Timer implements Runnable {
 
 	public void setDelay(int delay) {
 		this.delay = delay;
+	}
+
+	public boolean countingUp() {
+		return countingUp;
 	}
 }

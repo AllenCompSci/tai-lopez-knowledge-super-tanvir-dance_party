@@ -3,7 +3,7 @@ package knowledge;
 import java.awt.*;
 
 /**
- * Created by mario on 1/12/2017.
+ * @author onContentStop
  */
 public class DrawingTools {
 
