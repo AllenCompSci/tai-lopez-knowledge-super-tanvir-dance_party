@@ -7,8 +7,8 @@ public class Duck {
 	private int ySpeed;
 	private Color[] birdc;
 	public Duck() {
-		birdc = new Color[5];
-		birdc[0] = new Color(35,31,32);
+		birdc = new Color[10];
+		birdc[0] = new Color(0,0,0);
 		birdc[1] = new Color(255,255,255);
 		birdc[2] = new Color(242,236,47);
 		birdc[3] = new Color(251,187,19);
@@ -95,10 +95,17 @@ public class Duck {
 			xSpeed = -5;
 		}
 	}
-	public boolean isHit(Color Colorpt){
+	public boolean isHit(int x, int y){
 		boolean hit = false;
+		/*
 		if(Colorpt.equals(birdc[0]) ||Colorpt.equals(birdc[1]) ||Colorpt.equals(birdc[2]) ||Colorpt.equals(birdc[3]) ||Colorpt.equals(birdc[4])){
 			hit = true;
+		}*/
+		if(((x >= xPos) && (x <= xPos + 178)) && ((y >= yPos) && (y <= yPos + 178))){
+			hit = true;
+		}
+		else{
+			hit = false;
 		}
 		return hit;
 	}

@@ -65,8 +65,9 @@ public class Girrafics extends Graphics{
 				draw();
 				if(frame.clicking()){
 					try{
+						frame.setClick(false);
 						Color ColorPoint = getPointerColor();
-						if(duck1.isHit(ColorPoint)){
+						if(duck1.isHit(frame.mouseX, frame.mouseY)){
 							System.out.println("YOU HIT IT BOIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII");
 						}
 						else{

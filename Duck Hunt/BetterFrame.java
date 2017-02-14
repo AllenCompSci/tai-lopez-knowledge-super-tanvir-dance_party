@@ -7,7 +7,7 @@ import java.awt.event.*;
  */
 public class BetterFrame extends Frame implements MouseListener, MouseMotionListener, MouseWheelListener {
 	public int mouseX, mouseY;
-	private boolean clicking;
+	private boolean clicking, clicked;
 	private int mouseButton = - 1;
 	private String name;
 
@@ -24,23 +24,39 @@ public class BetterFrame extends Frame implements MouseListener, MouseMotionList
 		addMouseListener(this);
 		addMouseMotionListener(this);
 		addMouseWheelListener(this);
+		clicked = false;
+		clicking = false;
 	}
 
 
 	@Override
 	public void mouseClicked(MouseEvent e) {
 	}
+	public void setClick(boolean r){
+		clicking = r;
+	}
 
 	@Override
 	public void mousePressed(MouseEvent e) {
-		clicking = true;
-		mouseButton = e.getButton();
+		if(clicked == false && clicking == false) {
+			clicking = true;
+			clicked = true;
+			mouseButton = e.getButton();
+		}
+
+			//System.out.println(clicking);
+
 	}
 
 	@Override
 	public void mouseReleased(MouseEvent e) {
-		clicking = false;
-		mouseButton = - 1;
+		if(clicked == true){
+			//System.out.println(clicking);
+			clicking = false;
+			clicked = false;
+			mouseButton = -1;
+
+		}
 	}
 
 	@Override
@@ -76,6 +92,7 @@ public class BetterFrame extends Frame implements MouseListener, MouseMotionList
 	 * @return whether or not a button is currently being pressed on the mouse
 	 */
 	public boolean clicking() {
+
 		return clicking;
 	}
 
