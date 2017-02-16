@@ -15,6 +15,7 @@ public class Graphics implements Runnable, WindowListener, WindowFocusListener {
 	public Font f;
 	public Graphics2D art;
 
+
 	public Graphics() {
 		frame = new BetterFrame("Frame", new Dimension(width, height));
 		initializeCommonVariables();
@@ -142,6 +143,14 @@ public class Graphics implements Runnable, WindowListener, WindowFocusListener {
 	@Override
 	public void windowLostFocus(WindowEvent e) {
 
+	}
+
+	public Image getImg(){
+		return imgBuffer;
+	}
+
+	public void setImgBuffer(Image t){
+		imgBuffer = t;
 	}
 	//endregion
 }
