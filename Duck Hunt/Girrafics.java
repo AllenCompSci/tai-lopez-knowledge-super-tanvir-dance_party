@@ -10,9 +10,10 @@ import java.io.IOException;
  * Created by Your Local Weeb on 2/6/2017.
  */
 public class Girrafics extends Graphics{
-	public BufferedImage bird;
+	public BufferedImage bird, blood;
 	public Image background;
 	Duck duck1 = new Duck();
+	private boolean isDead = false;
 	long start = System.currentTimeMillis();
 	private boolean runOnce;
 	boolean clicking;
@@ -31,6 +32,8 @@ public class Girrafics extends Graphics{
 			background = ImageIO.read(new File("Background.jpeg"));
 
 			bird = ImageIO.read(new File("bird.png"));
+
+			blood = ImageIO.read(new File("boom.gif"));
 		}
 		catch(IOException e){
 
@@ -39,12 +42,15 @@ public class Girrafics extends Graphics{
 	public void draw(){
 
 		startDraw();
-
-
 		art.drawImage(background, 0, 0, width, height, 0, 0, width, height, null);
 		art.setColor(Color.BLACK);
-		art.drawImage(bird, duck1.getxPos(), duck1.getyPos(), null);
+		if(duck1.isDead()) {
+			art.drawImage(blood, duck1.getxPos(), duck1.getyPos(), null);
 
+		}
+		else{
+			art.drawImage(bird, duck1.getxPos(), duck1.getyPos(), null);
+		}
 		endDraw();
 
 	}
@@ -68,7 +74,7 @@ public class Girrafics extends Graphics{
 						frame.setClick(false);
 						Color ColorPoint = getPointerColor();
 						if(duck1.isHit(frame.mouseX, frame.mouseY)){
-							System.out.println("YOU HIT IT BOIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIIII");
+
 						}
 						else{
 							System.out.println(ColorPoint);

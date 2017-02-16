@@ -5,6 +5,7 @@ public class Duck {
 	private int yPos;
 	private int xSpeed;
 	private int ySpeed;
+	private  boolean isDead;
 	private Color[] birdc;
 	public Duck() {
 		birdc = new Color[10];
@@ -24,6 +25,7 @@ public class Duck {
 		yPos = y;
 		xSpeed = xs;
 		ySpeed = ys;
+		isDead = false;
 	}
 
 	public int getxPos() {
@@ -65,16 +67,15 @@ public class Duck {
 
 	public void changeDirection() {
 		double check = Math.random();
-
-		if (check > 0.66) {
-			xSpeed *= -1;
-		}
-		else if (check < 0.33) {
-			ySpeed *= -1;
-		}
-		else{
-			xSpeed *= -1;
-			ySpeed *=-1;
+		if(!isDead) {
+			if (check > 0.66) {
+				xSpeed *= -1;
+			} else if (check < 0.33) {
+				ySpeed *= -1;
+			} else {
+				xSpeed *= -1;
+				ySpeed *= -1;
+			}
 		}
 	}
 	public boolean isOnScreen() {
@@ -82,17 +83,18 @@ public class Duck {
 	}
 
 	public void fixDirection(){
-		if (yPos < 0) {
-			ySpeed = 5;
-		}
-		else if (yPos > 542) {
-			ySpeed = -5;
-		}
+		if(!isDead) {
+			if (yPos < 0) {
+				ySpeed = 10;
+			} else if (yPos > 542) {
+				ySpeed = -10;
+			}
 
-		if (xPos < 0) {
-			xSpeed = 5;
-		} else if (xPos > 1102) {
-			xSpeed = -5;
+			if (xPos < 0) {
+				xSpeed = 10;
+			} else if (xPos > 1102) {
+				xSpeed = -10;
+			}
 		}
 	}
 	public boolean isHit(int x, int y){
@@ -103,10 +105,18 @@ public class Duck {
 		}*/
 		if(((x >= xPos) && (x <= xPos + 178)) && ((y >= yPos) && (y <= yPos + 178))){
 			hit = true;
+			isDead = true;
+			xSpeed = 0;
+			ySpeed = 0;
 		}
 		else{
 			hit = false;
 		}
+
 		return hit;
+	}
+
+	public boolean isDead(){
+		return isDead;
 	}
 }
